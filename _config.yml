@@ -3,7 +3,7 @@ author: NMT4Binaries
 title: InnerEye | Homepage
 description: InnerEye a binaries similary detection tool 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ml4binaries.github.io" # the base hostname & protocol for your site
+url: "http://IoT-Fuzz.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
