@@ -1,0 +1,19 @@
+# Site settings
+author: NMT4Binaries
+title: InnerEye | Homepage
+description: InnerEye a binaries similary detection tool 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ml4binaries.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Sass settings
+sass:
+    sass_dir: _sass
+    style: compressed
