@@ -1,0 +1,3093 @@
+{
+    "doorlock": {
+        "attributes": {
+            "0": [
+                "0",
+                "1",
+                "2"
+            ],
+            "1": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "2": "BOOLEAN",
+            "3": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "4": "INT32U",
+            "5": "INT32U",
+            "6": "INT16U",
+            "17": "INT16U",
+            "18": "INT16U",
+            "19": "INT16U",
+            "20": "INT8U",
+            "21": "INT8U",
+            "22": "INT8U",
+            "23": "INT8U",
+            "24": "INT8U",
+            "25": "INT8U",
+            "26": "INT8U",
+            "27": [
+                "0x01",
+                "0x02",
+                "0x04"
+            ],
+            "28": "INT8U",
+            "33": {
+                "char_string": 3
+            },
+            "34": "INT8U",
+            "35": "INT32U",
+            "36": "INT8U",
+            "37": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "38": [
+                "0x01",
+                "0x02",
+                "0x04",
+                "0x08",
+                "0x10"
+            ],
+            "39": [
+                "0x01",
+                "0x02",
+                "0x04",
+                "0x20",
+                "0x40",
+                "0x80"
+            ],
+            "40": "BOOLEAN",
+            "41": "BOOLEAN",
+            "42": "BOOLEAN",
+            "43": "BOOLEAN",
+            "44": [
+                "0x01",
+                "0x02",
+                "0x04",
+                "0x08"
+            ],
+            "48": "INT8U",
+            "49": "INT8U",
+            "50": "BOOLEAN",
+            "51": "BOOLEAN",
+            "53": "INT16U"
+        },
+        "commands": {
+            "0": [
+                "octet_string"
+            ],
+            "1": [
+                "octet_string"
+            ],
+            "3": [
+                "INT16U",
+                "octet_string"
+            ],
+            "11": [
+                "INT8U",
+                "INT16U",
+                [
+                    "0x01",
+                    "0x02",
+                    "0x04",
+                    "0x08",
+                    "0x10",
+                    "0x20",
+                    "0x40"
+                ],
+                "INT8U",
+                "INT8U",
+                "INT8U",
+                "INT8U"
+            ],
+            "12": [
+                "INT8U",
+                "INT16U"
+            ],
+            "13": [
+                "INT8U",
+                "INT16U"
+            ],
+            "14": [
+                "INT8U",
+                "INT16U",
+                "epoch_s",
+                "epoch_s"
+            ],
+            "15": [
+                "INT8U",
+                "INT16U"
+            ],
+            "16": [
+                "INT8U",
+                "INT16U"
+            ],
+            "17": [
+                "INT8U",
+                "epoch_s",
+                "epoch_s",
+                [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            ],
+            "18": [
+                "INT8U"
+            ],
+            "19": [
+                "INT8U"
+            ],
+            "26": [
+                [
+                    "0",
+                    "1",
+                    "2"
+                ],
+                "INT16U"
+            ],
+            "27": [
+                "INT16U"
+            ],
+            "29": [
+                "INT16U"
+            ],
+            "34": [
+                [
+                    "0",
+                    "1",
+                    "2"
+                ],
+                [
+                    [
+                        "0x00",
+                        "0x01",
+                        "0x02",
+                        "0x03",
+                        "0x04",
+                        "0x05"
+                    ],
+                    "INT16U"
+                ],
+                "octet_string",
+                "INT16U",
+                [
+                    "0",
+                    "1",
+                    "3"
+                ],
+                [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9"
+                ]
+            ],
+            "36": [
+                [
+                    [
+                        "0x00",
+                        "0x01",
+                        "0x02",
+                        "0x03",
+                        "0x04",
+                        "0x05"
+                    ],
+                    "INT16U"
+                ]
+            ],
+            "38": [
+                [
+                    [
+                        "0x00",
+                        "0x01",
+                        "0x02",
+                        "0x03",
+                        "0x04",
+                        "0x05"
+                    ],
+                    "INT16U"
+                ]
+            ]
+        },
+        "events": {
+            "0": [],
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": []
+        }
+    },
+    "contentlauncher": {
+        "attributes": {
+            "0x0000": {
+                "char_string": 254
+            },
+            "0x0001": "BITMAP32"
+        },
+        "commands": {
+            "0x00": [
+                [
+                    [
+                        "0x00",
+                        "0x01",
+                        "0x02",
+                        "0x03",
+                        "0x04",
+                        "0x05",
+                        "0x06",
+                        "0x07",
+                        "0x08",
+                        "0x09",
+                        "0x0A",
+                        "0x0B",
+                        "0x0C",
+                        "0x0D"
+                    ],
+                    "octet_string"
+                ],
+                "BOOLEAN",
+                "octet_string"
+            ],
+            "0x01": [
+                "octet_string",
+                "octet_string",
+                [
+                    "octet_string",
+                    [
+                        "octet_string",
+                        "octet_string",
+                        "double",
+                        "double",
+                        [
+                            "0x00",
+                            "0x01"
+                        ]
+                    ],
+                    [
+                        "octet_string",
+                        "octet_string",
+                        "double",
+                        "double",
+                        [
+                            "0x00",
+                            "0x01"
+                        ]
+                    ],
+                    [
+                        "octet_string",
+                        "octet_string",
+                        "double",
+                        "double",
+                        [
+                            "0x00",
+                            "0x01"
+                        ]
+                    ],
+                    [
+                        "octet_string",
+                        "octet_string",
+                        "double",
+                        "double",
+                        [
+                            "0x00",
+                            "0x01"
+                        ]
+                    ],
+                    [
+                        "octet_string",
+                        "octet_string",
+                        "double",
+                        "double",
+                        [
+                            "0x00",
+                            "0x01"
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "events": {}
+    },
+    "switch": {
+        "attributes": {
+            "0x0000": "INT8U",
+            "0x0001": "INT8U",
+            "0x0002": "INT8U"
+        },
+        "commands": {},
+        "events": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": [],
+            "0x04": [],
+            "0x05": [],
+            "0x06": []
+        }
+    },
+    "thermostatuserinterfaceconfiguration": {
+        "attributes": {
+            "0x0000": "INT8U",
+            "0x0001": "INT8U",
+            "0x0002": "INT8U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "relativehumiditymeasurement": {
+        "attributes": {
+            "0x0000": "INT16U",
+            "0x0001": "INT16U",
+            "0x0002": "INT16U",
+            "0x0003": "INT16U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "timesynchronization": {
+        "attributes": {
+            "0x0000": "epoch_us",
+            "0x0001": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04"
+            ],
+            "0x0002": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09",
+                "0x0A",
+                "0x0B",
+                "0x0C",
+                "0x0D",
+                "0x0E",
+                "0x0F",
+                "0x10"
+            ],
+            "0x0003": "INT64U",
+            "0x0004": {
+                "char_string": 128
+            },
+            "0x0005": [
+                "INT32s",
+                "epoch_us",
+                {
+                    "char_string": 64
+                }
+            ],
+            "0x0006": [
+                "INT32s",
+                "epoch_us",
+                "epoch_us"
+            ],
+            "0x0007": "epoch_us",
+            "0x0008": "BOOLEAN",
+            "0x0009": "INT16U"
+        },
+        "commands": {
+            "0x00": [
+                "epoch_us",
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04"
+                ],
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04",
+                    "0x05",
+                    "0x06",
+                    "0x07",
+                    "0x08",
+                    "0x09",
+                    "0x0A",
+                    "0x0B",
+                    "0x0C",
+                    "0x0D",
+                    "0x0E",
+                    "0x0F",
+                    "0x10"
+                ]
+            ]
+        },
+        "events": {}
+    },
+    "powersource": {
+        "attributes": {
+            "0x0000": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x0001": "INT8U",
+            "0x0002": {
+                "char_string": 60
+            },
+            "0x0003": "INT32U",
+            "0x0004": "INT16U",
+            "0x0005": [
+                "0x00",
+                "0x01"
+            ],
+            "0x0006": "INT32U",
+            "0x0007": "INT32U",
+            "0x0008": "INT32U",
+            "0x0009": "BOOLEAN",
+            "0x000A": [
+                "0x00",
+                "0x01",
+                "0x02"
+            ],
+            "0x000B": "INT32U",
+            "0x000C": "INT8U",
+            "0x000D": "INT32U",
+            "0x000E": [
+                "0x00",
+                "0x01",
+                "0x02"
+            ],
+            "0x000F": "BOOLEAN",
+            "0x0010": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x0011": "BOOLEAN",
+            "0x0012": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09",
+                "0x0A"
+            ],
+            "0x0013": {
+                "char_string": 60
+            },
+            "0x0014": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56",
+                "57",
+                "58",
+                "59",
+                "60",
+                "61",
+                "62",
+                "63",
+                "64",
+                "65",
+                "66",
+                "67",
+                "68",
+                "69",
+                "70",
+                "71",
+                "72",
+                "73",
+                "74",
+                "75",
+                "76",
+                "77",
+                "78",
+                "79",
+                "80"
+            ],
+            "0x0015": {
+                "char_string": 20
+            },
+            "0x0016": {
+                "char_string": 20
+            },
+            "0x0017": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32"
+            ],
+            "0x0018": "INT32U",
+            "0x0019": "INT8U",
+            "0x001A": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x001B": "INT32U",
+            "0x001C": "BOOLEAN",
+            "0x001D": "INT32U",
+            "0x001E": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09",
+                "0x0A"
+            ]
+        },
+        "commands": {},
+        "events": {
+            "0x0000": [],
+            "0x0001": [],
+            "0x0002": []
+        }
+    },
+    "threadnetworkdiagnostics": {
+        "attributes": {
+            "0x00": "INT16U",
+            "0x01": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06"
+            ],
+            "0x02": {
+                "char_string": 16
+            },
+            "0x03": "INT16U",
+            "0x04": "INT64U",
+            "0x05": "octet_string",
+            "0x06": "INT64U",
+            "0x07": [
+                "INT64U",
+                "INT32U",
+                "INT16U",
+                "INT32U",
+                "INT32U",
+                "INT8U",
+                "INT8S",
+                "INT8S",
+                "INT8U",
+                "INT8U",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN"
+            ],
+            "0x08": [
+                "INT64U",
+                "INT16U",
+                "INT8U",
+                "INT8U",
+                "INT8U",
+                "INT8U",
+                "INT8U",
+                "INT8U",
+                "BOOLEAN",
+                "BOOLEAN"
+            ],
+            "0x09": "INT32U",
+            "0x0A": "INT8U",
+            "0x0B": "INT8U",
+            "0x0C": "INT8U",
+            "0x0D": "INT8U",
+            "0x0E": "INT16U",
+            "0x0F": "INT16U",
+            "0x10": "INT16U",
+            "0x11": "INT16U",
+            "0x12": "INT16U",
+            "0x13": "INT16U",
+            "0x14": "INT16U",
+            "0x15": "INT16U",
+            "0x16": "INT32U",
+            "0x17": "INT32U",
+            "0x18": "INT32U",
+            "0x19": "INT32U",
+            "0x1A": "INT32U",
+            "0x1B": "INT32U",
+            "0x1C": "INT32U",
+            "0x1D": "INT32U",
+            "0x1E": "INT32U",
+            "0x1F": "INT32U",
+            "0x20": "INT32U",
+            "0x21": "INT32U",
+            "0x22": "INT32U",
+            "0x23": "INT32U",
+            "0x24": "INT32U",
+            "0x25": "INT32U",
+            "0x26": "INT32U",
+            "0x27": "INT32U",
+            "0x28": "INT32U",
+            "0x29": "INT32U",
+            "0x2A": "INT32U",
+            "0x2B": "INT32U",
+            "0x2C": "INT32U",
+            "0x2D": "INT32U",
+            "0x2E": "INT32U",
+            "0x2F": "INT32U",
+            "0x30": "INT32U",
+            "0x31": "INT32U",
+            "0x32": "INT32U",
+            "0x33": "INT32U",
+            "0x34": "INT32U",
+            "0x35": "INT32U",
+            "0x36": "INT32U",
+            "0x37": "INT32U",
+            "0x38": "INT64U",
+            "0x39": "INT64U",
+            "0x3A": "INT32U",
+            "0x3B": [
+                "INT16U",
+                "INT16U"
+            ],
+            "0x3C": "octet_string",
+            "0x3D": [
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN"
+            ],
+            "0x3E": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        "commands": {
+            "0x00": []
+        },
+        "events": {
+            "0x00": [],
+            "0x01": []
+        }
+    },
+    "softwarediagnostics": {
+        "attributes": {
+            "0x00": [
+                "INT64U",
+                {
+                    "char_string": 8
+                },
+                "INT32U",
+                "INT32U",
+                "INT32U"
+            ],
+            "0x01": "INT64U",
+            "0x02": "INT64U",
+            "0x03": "INT64U"
+        },
+        "commands": {
+            "0x00": []
+        },
+        "events": {
+            "0x00": []
+        }
+    },
+    "powersourceconfiguration": {
+        "attributes": {
+            "0x0000": "INT16U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "groupkeymanagement": {
+        "attributes": {
+            "0x0000": [
+                {
+                    "char_string": 2
+                },
+                "INT16U"
+            ],
+            "0x0001": [
+                {
+                    "char_string": 2
+                },
+                "INT16U",
+                {
+                    "char_string": 16
+                }
+            ],
+            "0x0002": "INT16U",
+            "0x0003": "INT16U"
+        },
+        "commands": {
+            "0x00": [
+                [
+                    "INT16U",
+                    "INT16U",
+                    "octet_string",
+                    "epoch_us",
+                    "octet_string",
+                    "epoch_us",
+                    "octet_string",
+                    "epoch_us"
+                ]
+            ],
+            "0x01": [
+                "INT16U"
+            ],
+            "0x03": [
+                "INT16U"
+            ],
+            "0x04": [
+                "INT16U"
+            ]
+        },
+        "events": {}
+    },
+    "pressuremeasurement": {
+        "attributes": {
+            "0x0000": "INT16S",
+            "0x0001": "INT16S",
+            "0x0002": "INT16S",
+            "0x0003": "INT16U",
+            "0x0010": "INT16S",
+            "0x0011": "INT16S",
+            "0x0012": "INT16S",
+            "0x0013": "INT16U",
+            "0x0014": "INT8S"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "operationalcredentials": {
+        "attributes": {
+            "0x0000": [
+                {
+                    "char_string": 400
+                },
+                {
+                    "char_string": 400
+                }
+            ],
+            "0x0001": [
+                {
+                    "char_string": 65
+                },
+                "INT16U",
+                "fabric_idx",
+                "INT64U",
+                {
+                    "char_string": 32
+                }
+            ],
+            "0x0002": "INT8U",
+            "0x0003": "INT8U",
+            "0x0004": "octet_string",
+            "0x0005": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "octet_string"
+            ],
+            "0x02": [
+                [
+                    "0x01",
+                    "0x02"
+                ]
+            ],
+            "0x04": [
+                "octet_string",
+                "BOOLEAN"
+            ],
+            "0x06": [
+                "octet_string",
+                "octet_string",
+                "octet_string",
+                "INT64U",
+                "INT16U"
+            ],
+            "0x07": [
+                "octet_string",
+                "octet_string"
+            ],
+            "0x09": [
+                {
+                    "char_string": 32
+                }
+            ],
+            "0x0a": [
+                "fabric_idx"
+            ],
+            "0x0b": [
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "proxydiscovery": {
+        "attributes": {},
+        "commands": {},
+        "events": {}
+    },
+    "booleanstate": {
+        "attributes": {
+            "0x0000": "BOOLEAN"
+        },
+        "commands": {},
+        "events": {
+            "0x0000": []
+        }
+    },
+    "faultinjection": {
+        "attributes": {},
+        "commands": {
+            "0x00": [
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04"
+                ],
+                "INT32U",
+                "INT32U",
+                "INT32U",
+                "BOOLEAN"
+            ],
+            "0x01": [
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04"
+                ],
+                "INT32U",
+                "INT8U"
+            ]
+        },
+        "events": {}
+    },
+    "applicationlauncher": {
+        "attributes": {
+            "0x0000": "INT16U",
+            "0x0001": [
+                [
+                    "INT16U",
+                    "octet_string"
+                ],
+                "INT16U"
+            ]
+        },
+        "commands": {
+            "0x00": [
+                [
+                    "INT16U",
+                    "octet_string"
+                ],
+                "octet_string"
+            ],
+            "0x01": [
+                [
+                    "INT16U",
+                    "octet_string"
+                ]
+            ],
+            "0x02": [
+                [
+                    "INT16U",
+                    "octet_string"
+                ]
+            ]
+        },
+        "events": {}
+    },
+    "mediaplayback": {
+        "attributes": {
+            "0x0000": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x0001": "epoch_us",
+            "0x0002": "INT64U",
+            "0x0003": [
+                "epoch_us",
+                "INT64U"
+            ],
+            "0x0004": "single",
+            "0x0005": "INT64U",
+            "0x0006": "INT64U"
+        },
+        "commands": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": [],
+            "0x04": [],
+            "0x05": [],
+            "0x06": [],
+            "0x07": [],
+            "0x08": [
+                "INT64U"
+            ],
+            "0x09": [
+                "INT64U"
+            ],
+            "0x0B": [
+                "INT64U"
+            ]
+        },
+        "events": {}
+    },
+    "bridgeddevicebasicinformation": {
+        "attributes": {
+            "0x0000": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x0001": "epoch_us",
+            "0x0002": "INT64U",
+            "0x0003": [
+                "epoch_us",
+                "INT64U"
+            ],
+            "0x0004": "single",
+            "0x0005": "INT64U",
+            "0x0006": "INT64U"
+        },
+        "commands": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": [],
+            "0x04": [],
+            "0x05": [],
+            "0x06": [],
+            "0x07": [],
+            "0x08": [
+                "INT64U"
+            ],
+            "0x09": [
+                "INT64U"
+            ],
+            "0x0B": [
+                "INT64U"
+            ]
+        },
+        "events": {}
+    },
+    "actions": {
+        "attributes": {
+            "0x0000": [
+                "INT16U",
+                {
+                    "char_string": 32
+                },
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04",
+                    "0x05",
+                    "0x06"
+                ],
+                "INT16U",
+                "INT16U",
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03"
+                ]
+            ],
+            "0x0001": [
+                "INT16U",
+                {
+                    "char_string": 32
+                },
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02"
+                ],
+                "INT16U"
+            ],
+            "0x0002": "octet_string"
+        },
+        "commands": {
+            "0x00": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x01": [
+                "INT16U",
+                "INT32U",
+                "INT16U"
+            ],
+            "0x02": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x03": [
+                "INT16U",
+                "INT32U",
+                "INT32U"
+            ],
+            "0x04": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x05": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x06": [
+                "INT16U",
+                "INT32U",
+                "INT32U"
+            ],
+            "0x07": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x08": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x09": [
+                "INT16U",
+                "INT32U",
+                "INT32U"
+            ],
+            "0x0A": [
+                "INT16U",
+                "INT32U"
+            ],
+            "0x0B": [
+                "INT16U",
+                "INT32U",
+                "INT32U"
+            ]
+        },
+        "events": {
+            "0x00": [],
+            "0x01": []
+        }
+    },
+    "generalcommissioning": {
+        "attributes": {
+            "0x00": "INT64U",
+            "0x01": [
+                "INT16U",
+                "INT16U"
+            ],
+            "0x02": [
+                "0x0",
+                "0x1",
+                "0x2"
+            ],
+            "0x03": [
+                "0x0",
+                "0x1",
+                "0x2"
+            ],
+            "0x04": "BOOLEAN"
+        },
+        "commands": {
+            "0x00": [
+                "INT16U",
+                "INT64U"
+            ],
+            "0x02": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2"
+                ],
+                "octet_string",
+                "INT64U"
+            ],
+            "0x04": []
+        },
+        "events": {}
+    },
+    "ballastconfiguration": {
+        "attributes": {
+            "0x0000": "INT8U",
+            "0x0001": "INT8U",
+            "0x0002": "BITMAP8",
+            "0x0010": "INT8U",
+            "0x0011": "INT8U",
+            "0x0014": "INT8U",
+            "0x0015": "INT8U",
+            "0x0020": "INT8U",
+            "0x0030": "octet_string",
+            "0x0031": "octet_string",
+            "0x0032": "INT24U",
+            "0x0033": "INT24U",
+            "0x0034": "BITMAP8",
+            "0x0035": "INT24U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "unitlocalization": {
+        "attributes": {
+            "0x00": [
+                "0x00",
+                "0x01",
+                "0x02"
+            ]
+        },
+        "commands": {},
+        "events": {}
+    },
+    "proxyconfiguration": {
+        "attributes": {},
+        "commands": {},
+        "events": {}
+    },
+    "otasoftwareupdateprovider": {
+        "attributes": {},
+        "commands": {
+            "0x00": [
+                "INT16U",
+                "INT16U",
+                "INT32U",
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2",
+                    "0x3"
+                ],
+                "INT16U",
+                "octet_string",
+                "BOOLEAN",
+                "octet_string"
+            ],
+            "0x01": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2",
+                    "0x3"
+                ],
+                "INT32U",
+                "octet_string",
+                "INT32U",
+                "octet_string",
+                "octet_string",
+                "BOOLEAN",
+                "octet_string"
+            ],
+            "0x02": [
+                "octet_string",
+                "INT32U"
+            ],
+            "0x04": [
+                "octet_string",
+                "INT32U"
+            ]
+        },
+        "events": {}
+    },
+    "otasoftwareupdaterequestor": {
+        "attributes": {
+            "0x0000": "INT16U",
+            "0x0001": "BOOLEAN",
+            "0x0002": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3",
+                "0x4",
+                "0x5",
+                "0x6",
+                "0x7",
+                "0x8"
+            ],
+            "0x0003": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT64U",
+                "INT16U",
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2"
+                ],
+                "octet_string",
+                "INT16U",
+                "INT16U",
+                "octet_string",
+                "BOOLEAN",
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "windowcovering": {
+        "attributes": {
+            "0x0000": [
+                "00",
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "255"
+            ],
+            "0x0001": "INT16U",
+            "0x0002": "INT16U",
+            "0x0003": "INT16U",
+            "0x0004": "INT16U",
+            "0x0005": "INT16U",
+            "0x0006": "INT16U",
+            "0x0007": [
+                "0x01",
+                "0x02",
+                "0x04",
+                "0x08",
+                "0x10",
+                "0x20",
+                "0x40"
+            ],
+            "0x0008": "Percent",
+            "0x0009": "Percent",
+            "0x000A": [
+                "0x03",
+                "0x0C",
+                "0x30"
+            ],
+            "0x000B": "Percent100ths",
+            "0x000C": "Percent100ths",
+            "0x000D": [
+                "00",
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "255"
+            ],
+            "0x000E": "Percent100ths",
+            "0x000F": "Percent100ths",
+            "0x0010": "INT16U",
+            "0x0011": "INT16U",
+            "0x0012": "INT16U",
+            "0x0013": "INT16U",
+            "0x0017": [
+                "0x01",
+                "0x02",
+                "0x04",
+                "0x08"
+            ],
+            "0x001A": [
+                "0x0001",
+                "0x0002",
+                "0x0004",
+                "0x0008",
+                "0x0010",
+                "0x0020",
+                "0x0040",
+                "0x0080",
+                "0x0100",
+                "0x0200",
+                "0x0400",
+                "0x0800"
+            ]
+        },
+        "commands": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x04": [
+                "INT16U"
+            ],
+            "0x05": [
+                "Percent100ths"
+            ],
+            "0x07": [
+                "INT16U"
+            ],
+            "0x08": [
+                "Percent100ths"
+            ]
+        },
+        "events": {}
+    },
+    "clientmonitoring": {
+        "attributes": {
+            "0x00": "INT32U",
+            "0x01": "INT32U",
+            "0x02": "INT16U",
+            "0x04": "INT32U"
+        },
+        "commands": {
+            "0x00": [
+                "INT64U",
+                "octet_string"
+            ],
+            "0x02": [
+                "INT64U"
+            ],
+            "0x03": []
+        },
+        "events": {}
+    },
+    "keypadinput": {
+        "attributes": {},
+        "commands": {
+            "0x00": [
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04",
+                    "0x05",
+                    "0x06",
+                    "0x07",
+                    "0x08",
+                    "0x09",
+                    "0x0A",
+                    "0x0B",
+                    "0x0C",
+                    "0x0D",
+                    "0x10",
+                    "0x11",
+                    "0x1D",
+                    "0x1E",
+                    "0x1F",
+                    "0x20",
+                    "0x21",
+                    "0x22",
+                    "0x23",
+                    "0x24",
+                    "0x25",
+                    "0x26",
+                    "0x27",
+                    "0x28",
+                    "0x29",
+                    "0x2A",
+                    "0x2B",
+                    "0x2C",
+                    "0x2F",
+                    "0x30",
+                    "0x31",
+                    "0x32",
+                    "0x33",
+                    "0x34",
+                    "0x35",
+                    "0x36",
+                    "0x37",
+                    "0x38",
+                    "0x40",
+                    "0x41",
+                    "0x42",
+                    "0x43",
+                    "0x44",
+                    "0x45",
+                    "0x46",
+                    "0x47",
+                    "0x48",
+                    "0x49",
+                    "0x4A",
+                    "0x4B",
+                    "0x4C",
+                    "0x4D",
+                    "0x4E",
+                    "0x4F",
+                    "0x50",
+                    "0x51",
+                    "0x52",
+                    "0x53",
+                    "0x54",
+                    "0x55",
+                    "0x56",
+                    "0x57",
+                    "0x60",
+                    "0x61",
+                    "0x62",
+                    "0x63",
+                    "0x64",
+                    "0x65",
+                    "0x66",
+                    "0x67",
+                    "0x68",
+                    "0x69",
+                    "0x6A",
+                    "0x6B",
+                    "0x6C",
+                    "0x6D",
+                    "0x71",
+                    "0x72",
+                    "0x73",
+                    "0x74",
+                    "0x75",
+                    "0x76"
+                ]
+            ]
+        },
+        "events": {}
+    },
+    "applicationbasic": {
+        "attributes": {
+            "0x0000": {
+                "char_string": 32
+            },
+            "0x0001": "INT16U",
+            "0x0002": {
+                "char_string": 32
+            },
+            "0x0003": "INT16U",
+            "0x0004": [
+                "INT16U",
+                {
+                    "char_string": 32
+                }
+            ],
+            "0x0005": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x0006": {
+                "char_string": 32
+            },
+            "0x0007": "venforId"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "accountlogin": {
+        "attributes": {},
+        "commands": {
+            "0x00": [
+                "octet_string"
+            ],
+            "0x02": [
+                "octet_string",
+                "octet_string"
+            ],
+            "0x03": []
+        },
+        "events": {}
+    },
+    "accesscontrol": {
+        "attributes": {
+            "0x0000": [
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04",
+                    "0x05"
+                ],
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03"
+                ],
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02"
+                ],
+                [
+                    "INT16U",
+                    "INT8U",
+                    "INT32U"
+                ]
+            ],
+            "0x0001": {
+                "char_string": 128
+            },
+            "0x0002": "INT16U",
+            "0x0003": "INT16U",
+            "0x0004": "INT16U"
+        },
+        "commands": {},
+        "events": {
+            "0x0000": [],
+            "0x0001": []
+        }
+    },
+    "binding": {
+        "attributes": {
+            "0x0000": [
+                "INT64U",
+                "INT16U",
+                "INT16U",
+                "INT16U"
+            ]
+        },
+        "commands": {},
+        "events": {}
+    },
+    "identify": {
+        "attributes": {
+            "0x0000": "INT16U",
+            "0x0001": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT16U"
+            ],
+            "0x40": [
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x0B",
+                    "0xFE",
+                    "0xFF"
+                ],
+                [
+                    "0x00"
+                ]
+            ]
+        },
+        "events": {}
+    },
+    "networkcommissioning": {
+        "attributes": {
+            "0x0000": "INT8U",
+            "0x0001": [
+                {
+                    "char_string": 32
+                },
+                "BOOLEAN"
+            ],
+            "0x0002": "INT8U",
+            "0x0003": "INT8U",
+            "0x0004": "BOOLEAN",
+            "0x0005": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3",
+                "0x4",
+                "0x5",
+                "0x6",
+                "0x7",
+                "0x8",
+                "0x9",
+                "0xa",
+                "0xb",
+                "0xc"
+            ],
+            "0x0006": "octet_string",
+            "0x0007": "INT32S"
+        },
+        "commands": {
+            "0x00": [
+                "octet_string",
+                "INT64U"
+            ],
+            "0x02": [
+                "octet_string",
+                "octet_string",
+                "INT64U"
+            ],
+            "0x03": [
+                "octet_string",
+                "INT64U"
+            ],
+            "0x04": [
+                "octet_string",
+                "INT64U"
+            ],
+            "0x06": [
+                "octet_string",
+                "INT64U"
+            ],
+            "0x08": [
+                "octet_string",
+                "INT8U",
+                "INT64U"
+            ]
+        },
+        "events": {}
+    },
+    "userlabel": {
+        "attributes": {
+            "0x0000": [
+                {
+                    "char_string": 16
+                },
+                {
+                    "char_string": 16
+                }
+            ]
+        },
+        "commands": {},
+        "events": {}
+    },
+    "onoffswitchconfiguration": {
+        "attributes": {
+            "0x0000": [
+                "0x00",
+                "0x01"
+            ],
+            "0x0010": [
+                "0x00",
+                "0x01",
+                "0x02"
+            ]
+        },
+        "commands": {},
+        "events": {}
+    },
+    "onoff": {
+        "attributes": {
+            "0x0000": "BOOLEAN",
+            "0x4000": "BOOLEAN",
+            "0x4001": "INT16U",
+            "0x4002": "INT16U",
+            "0x4003": [
+                "0x00",
+                "0x01",
+                "0x02"
+            ]
+        },
+        "commands": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x40": [
+                [
+                    "0x00",
+                    "0x01"
+                ],
+                "INT8U"
+            ],
+            "0x41": [],
+            "0x42": [
+                [
+                    "0x01"
+                ],
+                "INT16U",
+                "INT16U"
+            ]
+        },
+        "events": {}
+    },
+    "audiooutput": {
+        "attributes": {
+            "0x0000": [
+                "INT8U",
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04",
+                    "0x05"
+                ],
+                "octet_string"
+            ],
+            "0x0001": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT8U"
+            ],
+            "0x01": [
+                "INT8U",
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "localizationconfiguration": {
+        "attributes": {
+            "0x00": {
+                "char_string": 35
+            },
+            "0x01": {
+                "char_string": 35
+            }
+        },
+        "commands": {},
+        "events": {}
+    },
+    "targetnavigator": {
+        "attributes": {
+            "0x0000": [
+                "INT8U",
+                "octet_string"
+            ],
+            "0x0001": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT8U",
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "basicinformation": {
+        "attributes": {
+            "0": "INT16U",
+            "1": "octet_string",
+            "2": "INT16U",
+            "3": "octet_string",
+            "4": "INT16U",
+            "5": "octet_string",
+            "6": "octet_string",
+            "7": "INT16U",
+            "8": "octet_string",
+            "9": "INT32U",
+            "10": "octet_string",
+            "11": "octet_string",
+            "12": "octet_string",
+            "13": "octet_string",
+            "14": "octet_string",
+            "15": "octet_string",
+            "16": "BOOLEAN",
+            "17": "BOOLEAN",
+            "18": "octet_string",
+            "19": [
+                "INT16U",
+                "INT16U"
+            ],
+            "20": [
+                [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12",
+                    "13",
+                    "14",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "19",
+                    "20"
+                ]
+            ]
+        },
+        "commands": {},
+        "events": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": []
+        }
+    },
+    "pumpconfigurationandcontrol": {
+        "attributes": {
+            "0x0000": "INT16S",
+            "0x0001": "INT16U",
+            "0x0002": "INT16U",
+            "0x0003": "INT16S",
+            "0x0004": "INT16S",
+            "0x0005": "INT16S",
+            "0x0006": "INT16S",
+            "0x0007": "INT16U",
+            "0x0008": "INT16U",
+            "0x0009": "INT16U",
+            "0x000A": "INT16U",
+            "0x000B": "INT16S",
+            "0x000C": "INT16S",
+            "0x0010": [
+                "0x1",
+                "0x2",
+                "0x4",
+                "0x8",
+                "0x10",
+                "0x20",
+                "0x40",
+                "0x80",
+                "0x100"
+            ],
+            "0x0011": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3"
+            ],
+            "0x0012": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3",
+                "0x5",
+                "0x7"
+            ],
+            "0x0013": "INT16S",
+            "0x0014": "INT16U",
+            "0x0015": "INT24U",
+            "0x0016": "INT24U",
+            "0x0017": "INT32U",
+            "0x0020": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3"
+            ],
+            "0x0021": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3",
+                "0x5",
+                "0x7"
+            ]
+        },
+        "commands": {},
+        "events": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": [],
+            "0x04": [],
+            "0x05": [],
+            "0x06": [],
+            "0x07": [],
+            "0x08": [],
+            "0x09": [],
+            "0x0A": [],
+            "0x0B": [],
+            "0x0C": [],
+            "0x0D": [],
+            "0x0E": [],
+            "0x0F": [],
+            "0x10": []
+        }
+    },
+    "descriptor": {
+        "attributes": {
+            "0x0000": [
+                "INT8U",
+                "INT16U"
+            ],
+            "0x0001": "INT64U",
+            "0x0002": "INT64U",
+            "0x0003": "INT16U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "mediainput": {
+        "attributes": {
+            "0x0000": [
+                "INT8U",
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04",
+                    "0x05",
+                    "0x06",
+                    "0x07",
+                    "0x08",
+                    "0x09",
+                    "0x0A",
+                    "0x0B"
+                ],
+                "octet_string",
+                "octet_string"
+            ],
+            "0x0001": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT8U"
+            ],
+            "0x01": [],
+            "0x02": [],
+            "0x03": [
+                "INT8U",
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "ethernetnetworkdiagnostics": {
+        "attributes": {
+            "0x00": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09"
+            ],
+            "0x01": "BOOLEAN",
+            "0x02": "INT64U",
+            "0x03": "INT64U",
+            "0x04": "INT64U",
+            "0x05": "INT64U",
+            "0x06": "INT64U",
+            "0x07": "BOOLEAN",
+            "0x08": "INT64U"
+        },
+        "commands": {
+            "0x00": []
+        },
+        "events": {}
+    },
+    "occupancysensing": {
+        "attributes": {
+            "0x0000": [
+                "0x1"
+            ],
+            "0x0001": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3"
+            ],
+            "0x0002": [
+                "0x01",
+                "0x02",
+                "0x04"
+            ],
+            "0x0010": "INT16U",
+            "0x0011": "INT16U",
+            "0x0012": "INT8U",
+            "0x0020": "INT16U",
+            "0x0021": "INT16U",
+            "0x0022": "INT8U",
+            "0x0030": "INT16U",
+            "0x0031": "INT16U",
+            "0x0032": "INT8U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "diagnosticlogs": {
+        "attributes": {},
+        "commands": {
+            "0x00": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2"
+                ],
+                [
+                    "0x0",
+                    "0x1"
+                ],
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "channel": {
+        "attributes": {
+            "0x0000": [
+                "INT16U",
+                "INT16U",
+                "octet_string",
+                "octet_string",
+                "octet_string"
+            ],
+            "0x0001": [
+                "octet_string",
+                "octet_string",
+                "octet_string",
+                [
+                    "0x00"
+                ]
+            ],
+            "0x0002": [
+                "INT16U",
+                "INT16U",
+                "octet_string",
+                "octet_string",
+                "octet_string"
+            ]
+        },
+        "commands": {
+            "0x00": [
+                "octet_string"
+            ],
+            "0x02": [
+                "INT16U",
+                "INT16U"
+            ],
+            "0x03": [
+                "INT16U"
+            ]
+        },
+        "events": {}
+    },
+    "wakeonlan": {
+        "attributes": {
+            "0x0000": "octet_string"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "lowpower": {
+        "attributes": {},
+        "commands": {
+            "0x00": []
+        },
+        "events": {}
+    },
+    "temperaturemeasurement": {
+        "attributes": {
+            "0x0000": "INT16S",
+            "0x0001": "INT16S",
+            "0x0002": "INT16S",
+            "0x0003": "INT16U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "fixedlabel": {
+        "attributes": {
+            "0x0000": [
+                {
+                    "char_string": 16
+                },
+                {
+                    "char_string": 16
+                }
+            ]
+        },
+        "commands": {},
+        "events": {}
+    },
+    "flowmeasurement": {
+        "attributes": {
+            "0x0000": "INT16U",
+            "0x0001": "INT16U",
+            "0x0002": "INT16U",
+            "0x0003": "INT16U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "wifinetworkdiagnostics": {
+        "attributes": {
+            "0x00": "octet_string",
+            "0x01": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05"
+            ],
+            "0x02": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05"
+            ],
+            "0x03": "INT16U",
+            "0x04": "INT8S",
+            "0x05": "INT32U",
+            "0x06": "INT32U",
+            "0x07": "INT32U",
+            "0x08": "INT32U",
+            "0x09": "INT32U",
+            "0x0A": "INT32U",
+            "0x0B": "INT64U",
+            "0x0C": "INT64U"
+        },
+        "commands": {
+            "0x00": []
+        },
+        "events": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": []
+        }
+    },
+    "thermostat": {
+        "attributes": {
+            "0x0000": "INT16S",
+            "0x0001": "INT16S",
+            "0x0002": "BITMAP8",
+            "0x0003": "INT16S",
+            "0x0004": "INT16S",
+            "0x0005": "INT16S",
+            "0x0006": "INT16S",
+            "0x0007": "INT8U",
+            "0x0008": "INT8U",
+            "0x0009": "BITMAP8",
+            "0x0010": "INT8S",
+            "0x0011": "INT16S",
+            "0x0012": "INT16S",
+            "0x0013": "INT16S",
+            "0x0014": "INT16S",
+            "0x0015": "INT16S",
+            "0x0016": "INT16S",
+            "0x0017": "INT16S",
+            "0x0018": "INT16S",
+            "0x0019": "INT8S",
+            "0x001A": "BITMAP8",
+            "0x001B": [
+                "0x0",
+                "0x1",
+                "0x2",
+                "0x3",
+                "0x4",
+                "0x5"
+            ],
+            "0x001C": "INT8U",
+            "0x001E": "INT8U",
+            "0x0020": "INT8U",
+            "0x0021": "INT8U",
+            "0x0022": "INT8U",
+            "0x0023": "INT8U",
+            "0x0024": "INT16U",
+            "0x0025": "BITMAP8",
+            "0x0029": "BITMAP16",
+            "0x0030": "INT8U",
+            "0x0031": "INT16S",
+            "0x0032": "epoch_s",
+            "0x0034": "INT8U",
+            "0x0035": "INT8U",
+            "0x0036": "INT8U",
+            "0x0037": "INT8U",
+            "0x0038": "INT8U",
+            "0x0039": "INT8U",
+            "0x003A": "INT8U",
+            "0x0040": "INT8U",
+            "0x0041": "INT16U",
+            "0x0042": "INT8U",
+            "0x0043": "INT8U",
+            "0x0044": "BITMAP32",
+            "0x0045": "INT8U",
+            "0x0046": "INT16S",
+            "0x0047": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2"
+                ],
+                "INT8S"
+            ],
+            "0x01": [
+                "INT8U",
+                [
+                    "0x01",
+                    "0x02",
+                    "0x04",
+                    "0x08",
+                    "0x10",
+                    "0x20",
+                    "0x40",
+                    "0x80"
+                ],
+                [
+                    "0x01",
+                    "0x02"
+                ],
+                [
+                    "INT16U",
+                    "INT16S",
+                    "INT16S"
+                ]
+            ],
+            "0x02": [
+                [
+                    "0x01",
+                    "0x02",
+                    "0x04",
+                    "0x08",
+                    "0x10",
+                    "0x20",
+                    "0x40",
+                    "0x80"
+                ],
+                [
+                    "0x01",
+                    "0x02"
+                ]
+            ],
+            "0x03": []
+        },
+        "events": {}
+    },
+    "levelcontrol": {
+        "attributes": {
+            "0x0000": "INT8U",
+            "0x0001": "INT16U",
+            "0x0002": "INT8U",
+            "0x0003": "INT8U",
+            "0x0004": "INT16U",
+            "0x0005": "INT16U",
+            "0x0006": "INT16U",
+            "0x0010": "INT16U",
+            "0x0011": "INT8U",
+            "0x0012": "INT16U",
+            "0x0013": "INT16U",
+            "0x0014": "INT8U",
+            "0x000F": [
+                "0x1",
+                "0x02"
+            ],
+            "0x4000": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT8U",
+                "INT16U",
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x01": [
+                [
+                    "0x0",
+                    "0x1"
+                ],
+                "INT8U",
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x02": [
+                [
+                    "0x0",
+                    "0x1"
+                ],
+                "INT8U",
+                "INT16U",
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x03": [
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x04": [
+                "INT8U",
+                "INT16U",
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x05": [
+                [
+                    "0x0",
+                    "0x1"
+                ],
+                "INT8U",
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x06": [
+                [
+                    "0x0",
+                    "0x1"
+                ],
+                "INT8U",
+                "INT16U",
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x07": [
+                [
+                    "0x1",
+                    "0x02"
+                ],
+                [
+                    "0x1",
+                    "0x02"
+                ]
+            ],
+            "0x08": [
+                "INT16U"
+            ]
+        },
+        "events": {}
+    },
+    "groups": {
+        "attributes": {
+            "0x0000": "BITMAP8"
+        },
+        "commands": {
+            "0x00": [
+                "INT16U",
+                "octet_string"
+            ],
+            "0x01": [
+                "INT16U"
+            ],
+            "0x02": [
+                "INT16U"
+            ],
+            "0x03": [
+                "INT16U"
+            ],
+            "0x04": [],
+            "0x05": [
+                "INT16U",
+                "octet_string"
+            ]
+        },
+        "events": {}
+    },
+    "timeformatlocalization": {
+        "attributes": {
+            "0x00": [
+                "0x00",
+                "0x01"
+            ],
+            "0x01": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09",
+                "0x0A",
+                "0x0B"
+            ],
+            "0x02": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09",
+                "0x0A",
+                "0x0B"
+            ]
+        },
+        "commands": {},
+        "events": {}
+    },
+    "generaldiagnostics": {
+        "attributes": {
+            "0x00": [
+                {
+                    "char_string": 32
+                },
+                "BOOLEAN",
+                "BOOLEAN",
+                "BOOLEAN",
+                "INT64U",
+                {
+                    "char_string": 4
+                },
+                {
+                    "char_string": 8
+                },
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02",
+                    "0x03",
+                    "0x04"
+                ]
+            ],
+            "0x01": "INT16U",
+            "0x02": "INT64U",
+            "0x03": "INT32U",
+            "0x04": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06"
+            ],
+            "0x05": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06",
+                "0x07",
+                "0x08",
+                "0x09",
+                "0x0A"
+            ],
+            "0x06": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06"
+            ],
+            "0x07": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03"
+            ],
+            "0x08": "BOOLEAN"
+        },
+        "commands": {
+            "0x00": [
+                "octet_string",
+                "INT64U"
+            ]
+        },
+        "events": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": []
+        }
+    },
+    "scenes": {
+        "attributes": {
+            "0x00": "INT8U",
+            "0x01": "INT16U",
+            "0x02": "INT64U",
+            "0x03": "INT32U",
+            "0x04": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06"
+            ],
+            "0x05": "INT64U",
+            "0x08": "BOOLEAN"
+        },
+        "commands": {
+            "0x00": [
+                "INT64U",
+                "INT8U",
+                "INT16U",
+                "octet_string",
+                [
+                    "INT64U",
+                    "BOOLEAN"
+                ]
+            ],
+            "0x01": [
+                "INT64U",
+                "INT8U"
+            ],
+            "0x02": [
+                "INT64U",
+                "INT8U"
+            ],
+            "0x03": [
+                "INT64U"
+            ],
+            "0x04": [
+                "INT64U",
+                "INT8U"
+            ],
+            "0x05": [
+                "INT64U",
+                "INT8U"
+            ],
+            "0x06": [
+                "INT64U"
+            ],
+            "0x40": [
+                "INT64U",
+                "INT8U",
+                "INT16U",
+                "octet_string",
+                [
+                    "INT64U",
+                    "BOOLEAN"
+                ]
+            ],
+            "0x41": [
+                "INT64U",
+                "INT8U"
+            ],
+            "0x42": [
+                "INT64U",
+                "INT8U",
+                "INT64U",
+                "INT8U"
+            ]
+        },
+        "events": {
+            "0x00": [],
+            "0x01": [],
+            "0x02": [],
+            "0x03": []
+        }
+    },
+    "administratorcommissioning": {
+        "attributes": {
+            "0x0000": [
+                "0x00",
+                "0x01",
+                "0x02"
+            ],
+            "0x0001": "fabric_idx",
+            "0x0002": "INT16U"
+        },
+        "commands": {
+            "0x00": [
+                "INT16U",
+                "octet_string",
+                "INT16U",
+                "INT32U",
+                "octet_string"
+            ],
+            "0x01": [
+                "INT16U"
+            ],
+            "0x02": []
+        },
+        "events": {}
+    },
+    "modeselect": {
+        "attributes": {
+            "0x0000": {
+                "char_string": 64
+            },
+            "0x0001": "INT16U",
+            "0x0002": [
+                {
+                    "char_string": 64
+                },
+                "INT8U",
+                [
+                    "INT16U",
+                    "INT16U"
+                ]
+            ],
+            "0x0003": "INT8U",
+            "0x0004": "INT8U",
+            "0x0005": "INT8U"
+        },
+        "commands": {
+            "0x00": [
+                "INT8U"
+            ]
+        },
+        "events": {}
+    },
+    "illuminancemeasurement": {
+        "attributes": {
+            "0x0000": "INT16U",
+            "0x0001": "INT16U",
+            "0x0002": "INT16U",
+            "0x0003": "INT16U",
+            "0x0004": "INT8U"
+        },
+        "commands": {},
+        "events": {}
+    },
+    "pwm": {
+        "attributes": {},
+        "commands": {},
+        "events": {}
+    },
+    "colorcontrol": {
+        "attributes": {
+            "0x0000": "INT8U",
+            "0x0001": "INT8U",
+            "0x0002": "INT16U",
+            "0x0003": "INT16U",
+            "0x0004": "INT16U",
+            "0x0005": "INT8U",
+            "0x0006": "octet_string",
+            "0x0007": "INT16U",
+            "0x0008": "INT8U",
+            "0x000F": "BITMAP8",
+            "0x0010": "INT8U",
+            "0x0011": "INT16U",
+            "0x0012": "INT16U",
+            "0x0013": "INT8U",
+            "0x0015": "INT16U",
+            "0x0016": "INT16U",
+            "0x0017": "INT8U",
+            "0x0019": "INT16U",
+            "0x001A": "INT16U",
+            "0x001B": "INT8U",
+            "0x0020": "INT16U",
+            "0x0021": "INT16U",
+            "0x0022": "INT8U",
+            "0x0024": "INT16U",
+            "0x0025": "INT16U",
+            "0x0026": "INT8U",
+            "0x0028": "INT16U",
+            "0x0029": "INT16U",
+            "0x002A": "INT8U",
+            "0x0030": "INT16U",
+            "0x0031": "INT16U",
+            "0x0032": "INT16U",
+            "0x0033": "INT16U",
+            "0x0034": "INT8U",
+            "0x0036": "INT16U",
+            "0x0037": "INT16U",
+            "0x0038": "INT8U",
+            "0x003A": "INT16U",
+            "0x003B": "INT16U",
+            "0x003C": "INT8U",
+            "0x400D": "INT16U",
+            "0x4010": "INT16U",
+            "0x4000": "INT16U",
+            "0x4001": "INT8U",
+            "0x4002": "INT8U",
+            "0x4003": "INT8U",
+            "0x4004": "INT16U",
+            "0x4005": "INT16U",
+            "0x4006": "INT16U",
+            "0x400A": "BITMAP16",
+            "0x400B": "INT16U",
+            "0x400C": "INT16U"
+        },
+        "commands": {
+            "0x00": [
+                "INT8U",
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2",
+                    "0x3"
+                ],
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x01": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x3"
+                ],
+                "INT8U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x02": [
+                [
+                    "0x1",
+                    "0x3"
+                ],
+                "INT8U",
+                "INT8U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x03": [
+                "INT8U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x04": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x3"
+                ],
+                "INT8U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x05": [
+                [
+                    "0x1",
+                    "0x3"
+                ],
+                "INT8U",
+                "INT8U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x06": [
+                "INT8U",
+                "INT8U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x07": [
+                "INT16U",
+                "INT16U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x08": [
+                "INT16S",
+                "INT16S",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x09": [
+                "INT16S",
+                "INT16S",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x0A": [
+                "INT16U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x40": [
+                "INT16U",
+                [
+                    "0x0",
+                    "0x1",
+                    "0x2",
+                    "0x3"
+                ],
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x41": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x3"
+                ],
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x42": [
+                [
+                    "0x1",
+                    "0x3"
+                ],
+                "INT16U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x43": [
+                "INT16U",
+                "INT8U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x44": [
+                [
+                    "0x01",
+                    "0x02",
+                    "0x04",
+                    "0x08"
+                ],
+                [
+                    "0x00",
+                    "0x01",
+                    "0x02"
+                ],
+                [
+                    "0x00",
+                    "0x01"
+                ],
+                "INT16U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x47": [
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x4B": [
+                [
+                    "0x0",
+                    "0x1",
+                    "0x3"
+                ],
+                "INT16U",
+                "INT16U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ],
+            "0x4C": [
+                [
+                    "0x1",
+                    "0x3"
+                ],
+                "INT16U",
+                "INT16U",
+                "INT16U",
+                "INT16U",
+                "BITMAP8",
+                "BITMAP8"
+            ]
+        },
+        "events": {}
+    },
+    "fancontrol": {
+        "attributes": {
+            "0x0000": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05",
+                "0x06"
+            ],
+            "0x0001": [
+                "0x00",
+                "0x01",
+                "0x02",
+                "0x03",
+                "0x04",
+                "0x05"
+            ],
+            "0x0002": "INT8U",
+            "0x0003": "INT8U",
+            "0x0004": "INT8U",
+            "0x0005": "INT8U",
+            "0x0006": "INT8U",
+            "0x0007": "BITMAP8",
+            "0x0008": "BITMAP8",
+            "0x0009": "BITMAP8",
+            "0x000A": "BITMAP8"
+        },
+        "commands": {},
+        "events": {}
+    }
+}
