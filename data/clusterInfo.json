@@ -968,36 +968,6 @@
             "0x0000": []
         }
     },
-    "faultinjection": {
-        "attributes": {},
-        "commands": {
-            "0x00": [
-                [
-                    "0x00",
-                    "0x01",
-                    "0x02",
-                    "0x03",
-                    "0x04"
-                ],
-                "INT32U",
-                "INT32U",
-                "INT32U",
-                "BOOLEAN"
-            ],
-            "0x01": [
-                [
-                    "0x00",
-                    "0x01",
-                    "0x02",
-                    "0x03",
-                    "0x04"
-                ],
-                "INT32U",
-                "INT8U"
-            ]
-        },
-        "events": {}
-    },
     "applicationlauncher": {
         "attributes": {
             "0x0000": "INT16U",
