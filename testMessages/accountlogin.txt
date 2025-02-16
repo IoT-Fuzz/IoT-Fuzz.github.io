@@ -1,0 +1,8 @@
+==========FSM========
+chip-tool accountlogin command-by-id 0x00 '{"0":"abcdefghijklmnop"}' 0x654324 0
+chip-tool accountlogin command-by-id 0x00 '{"0":"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"}' 0x654324 0
+chip-tool accountlogin command-by-id 0x02 '{"0":"abcdefghijklmnop","1":"abcdefghijk"}' 0x654324 0
+chip-tool accountlogin command-by-id 0x02 '{"0":"abcdefghijklmnop","1":"abcdefghijk"}' 0x654324 0
+chip-tool accountlogin command-by-id 0x02 '{"0":"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789","1":"abcdefghijk"}' 0x654324 0
+chip-tool accountlogin command-by-id 0x02 '{"0":"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789","1":"abcdefghijk"}' 0x654324 0
+chip-tool accountlogin command-by-id 0x03 '{}' 0x654324 0
