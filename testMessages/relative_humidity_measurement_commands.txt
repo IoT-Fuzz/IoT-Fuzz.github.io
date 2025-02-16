@@ -1,0 +1,23 @@
+==========FSM========
+chip-tool relativehumiditymeasurement read-by-id 0x0001 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0002 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0000 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0000 u:0 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0000 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0000 u:65535 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0000 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0002 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0001 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0001 u:0 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0001 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0001 u:65535 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0001 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0002 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0002 u:0 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0002 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0002 u:65535 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0002 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0003 u:0 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0003 0x654324 0
+chip-tool relativehumiditymeasurement write-by-id 0x0003 u:2048 0x654324 0
+chip-tool relativehumiditymeasurement read-by-id 0x0003 0x654324 0

@@ -1,0 +1,9 @@
+==========FSM========
+chip-tool fixedlabel write-by-id 0x0000 "[{"0":{"0":"ab12","1":"ab12"}}]" 0x654324 0
+chip-tool fixedlabel read-by-id 0x0000 0x654324 0
+chip-tool fixedlabel write-by-id 0x0000 "[{"0":{"0":"ab12","1":"test123"}}]" 0x654324 0
+chip-tool fixedlabel read-by-id 0x0000 0x654324 0
+chip-tool fixedlabel write-by-id 0x0000 "[{"0":{"0":"test123","1":"ab12"}}]" 0x654324 0
+chip-tool fixedlabel read-by-id 0x0000 0x654324 0
+chip-tool fixedlabel write-by-id 0x0000 "[{"0":{"0":"test123","1":"test123"}}]" 0x654324 0
+chip-tool fixedlabel read-by-id 0x0000 0x654324 0

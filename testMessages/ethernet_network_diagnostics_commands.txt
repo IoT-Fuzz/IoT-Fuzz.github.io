@@ -1,0 +1,38 @@
+==========FSM========
+chip-tool ethernetnetworkdiagnostics write-by-id 0x00 0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x00 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x00 9 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x00 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x01 false 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x01 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x01 true 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x01 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x02 u:0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x02 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x02 u:18446744073709551615 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x02 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x03 u:0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x03 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x03 u:18446744073709551615 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x03 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x04 u:0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x04 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x04 u:18446744073709551615 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x04 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x05 u:0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x05 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x05 u:18446744073709551615 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x05 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x06 u:0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x06 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x06 u:18446744073709551615 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x06 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x07 false 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x07 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x07 true 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x07 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x08 u:0 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x08 0x654324 0
+chip-tool ethernetnetworkdiagnostics write-by-id 0x08 u:18446744073709551615 0x654324 0
+chip-tool ethernetnetworkdiagnostics read-by-id 0x08 0x654324 0
+chip-tool ethernetnetworkdiagnostics command-by-id 0x00 '{}' 0x654324 0

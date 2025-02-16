@@ -1,0 +1,45 @@
+==========FSM========
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":0,"2":"ab12","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":0,"2":"ab12","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":0,"2":"test123","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":0,"2":"test123","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":11,"2":"ab12","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":11,"2":"ab12","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":11,"2":"test123","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:0","1":11,"2":"test123","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":0,"2":"ab12","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":0,"2":"ab12","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":0,"2":"test123","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":0,"2":"test123","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":11,"2":"ab12","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":11,"2":"ab12","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":11,"2":"test123","3":"ab12"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0000 "[{"0":{"0":"u:255","1":11,"2":"test123","3":"test123"}}]" 0x654324 0
+chip-tool mediainput read-by-id 0x0000 0x654324 0
+chip-tool mediainput write-by-id 0x0001 u:0 0x654324 0
+chip-tool mediainput read-by-id 0x0001 0x654324 0
+chip-tool mediainput write-by-id 0x0001 u:255 0x654324 0
+chip-tool mediainput read-by-id 0x0001 0x654324 0
+chip-tool mediainput command-by-id 0x00 '{"0":"u:0"}' 0x654324 0
+chip-tool mediainput command-by-id 0x00 '{"0":"u:255"}' 0x654324 0
+chip-tool mediainput command-by-id 0x01 '{}' 0x654324 0
+chip-tool mediainput command-by-id 0x02 '{}' 0x654324 0
+chip-tool mediainput command-by-id 0x03 '{"0":"u:0","1":"a"}' 0x654324 0
+chip-tool mediainput command-by-id 0x03 '{"0":"u:0","1":"a"}' 0x654324 0
+chip-tool mediainput command-by-id 0x03 '{"0":"u:255","1":"a"}' 0x654324 0
+chip-tool mediainput command-by-id 0x03 '{"0":"u:255","1":"a"}' 0x654324 0

@@ -1,0 +1,16 @@
+==========FSM========
+chip-tool groups write-by-id 0x0000 0 0x654324 0
+chip-tool groups read-by-id 0x0000 0x654324 0
+chip-tool groups write-by-id 0x0000 127 0x654324 0
+chip-tool groups read-by-id 0x0000 0x654324 0
+chip-tool groups command-by-id 0x00 '{"0":"u:0","1":"ab12"}' 0x654324 0
+chip-tool groups command-by-id 0x00 '{"0":"u:65535","1":"test123"}' 0x654324 0
+chip-tool groups command-by-id 0x01 '{"0":"u:0"}' 0x654324 0
+chip-tool groups command-by-id 0x01 '{"0":"u:65535"}' 0x654324 0
+chip-tool groups command-by-id 0x02 '{"0":["u:0"]}' 0x654324 0
+chip-tool groups command-by-id 0x02 '{"0":["u:65535"]}' 0x654324 0
+chip-tool groups command-by-id 0x03 '{"0":"u:0"}' 0x654324 0
+chip-tool groups command-by-id 0x03 '{"0":"u:65535"}' 0x654324 0
+chip-tool groups command-by-id 0x05 '{"0":"u:0","1":"ab12"}' 0x654324 0
+chip-tool groups command-by-id 0x05 '{"0":"u:65535","1":"test123"}' 0x654324 0
+chip-tool groups command-by-id 0x04 '{}' 0x654324 0

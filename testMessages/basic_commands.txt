@@ -1,0 +1,75 @@
+==========FSM========
+chip-tool basicinformation write-by-id 0 u:0 0x654324 0
+chip-tool basicinformation read-by-id 0 0x654324 0
+chip-tool basicinformation write-by-id 0 u:65535 0x654324 0
+chip-tool basicinformation read-by-id 0 0x654324 0
+chip-tool basicinformation write-by-id 1 ab12 0x654324 0
+chip-tool basicinformation read-by-id 1 0x654324 0
+chip-tool basicinformation write-by-id 1 test123 0x654324 0
+chip-tool basicinformation read-by-id 1 0x654324 0
+chip-tool basicinformation write-by-id 2 null 0x654324 0
+chip-tool basicinformation read-by-id 2 0x654324 0
+chip-tool basicinformation write-by-id 3 ab12 0x654324 0
+chip-tool basicinformation read-by-id 3 0x654324 0
+chip-tool basicinformation write-by-id 3 test123 0x654324 0
+chip-tool basicinformation read-by-id 3 0x654324 0
+chip-tool basicinformation write-by-id 4 u:0 0x654324 0
+chip-tool basicinformation read-by-id 4 0x654324 0
+chip-tool basicinformation write-by-id 4 u:65535 0x654324 0
+chip-tool basicinformation read-by-id 4 0x654324 0
+chip-tool basicinformation write-by-id 5 ab12 0x654324 0
+chip-tool basicinformation read-by-id 5 0x654324 0
+chip-tool basicinformation write-by-id 5 test123 0x654324 0
+chip-tool basicinformation read-by-id 5 0x654324 0
+chip-tool basicinformation write-by-id 6 ab12 0x654324 0
+chip-tool basicinformation read-by-id 6 0x654324 0
+chip-tool basicinformation write-by-id 6 test123 0x654324 0
+chip-tool basicinformation read-by-id 6 0x654324 0
+chip-tool basicinformation write-by-id 7 u:0 0x654324 0
+chip-tool basicinformation read-by-id 7 0x654324 0
+chip-tool basicinformation write-by-id 7 u:65535 0x654324 0
+chip-tool basicinformation read-by-id 7 0x654324 0
+chip-tool basicinformation write-by-id 8 ab12 0x654324 0
+chip-tool basicinformation read-by-id 8 0x654324 0
+chip-tool basicinformation write-by-id 8 test123 0x654324 0
+chip-tool basicinformation read-by-id 8 0x654324 0
+chip-tool basicinformation write-by-id 9 u:0 0x654324 0
+chip-tool basicinformation read-by-id 9 0x654324 0
+chip-tool basicinformation write-by-id 9 u:4294967295 0x654324 0
+chip-tool basicinformation read-by-id 9 0x654324 0
+chip-tool basicinformation write-by-id 10 ab12 0x654324 0
+chip-tool basicinformation read-by-id 10 0x654324 0
+chip-tool basicinformation write-by-id 10 test123 0x654324 0
+chip-tool basicinformation read-by-id 10 0x654324 0
+chip-tool basicinformation write-by-id 11 ab12 0x654324 0
+chip-tool basicinformation read-by-id 11 0x654324 0
+chip-tool basicinformation write-by-id 11 test123 0x654324 0
+chip-tool basicinformation read-by-id 11 0x654324 0
+chip-tool basicinformation write-by-id 12 ab12 0x654324 0
+chip-tool basicinformation read-by-id 12 0x654324 0
+chip-tool basicinformation write-by-id 12 test123 0x654324 0
+chip-tool basicinformation read-by-id 12 0x654324 0
+chip-tool basicinformation write-by-id 13 null 0x654324 0
+chip-tool basicinformation read-by-id 13 0x654324 0
+chip-tool basicinformation write-by-id 14 ab12 0x654324 0
+chip-tool basicinformation read-by-id 14 0x654324 0
+chip-tool basicinformation write-by-id 14 test123 0x654324 0
+chip-tool basicinformation read-by-id 14 0x654324 0
+chip-tool basicinformation write-by-id 15 ab12 0x654324 0
+chip-tool basicinformation read-by-id 15 0x654324 0
+chip-tool basicinformation write-by-id 15 test123 0x654324 0
+chip-tool basicinformation read-by-id 15 0x654324 0
+chip-tool basicinformation write-by-id 16 false 0x654324 0
+chip-tool basicinformation read-by-id 16 0x654324 0
+chip-tool basicinformation write-by-id 16 true 0x654324 0
+chip-tool basicinformation read-by-id 16 0x654324 0
+chip-tool basicinformation write-by-id 17 false 0x654324 0
+chip-tool basicinformation read-by-id 17 0x654324 0
+chip-tool basicinformation write-by-id 17 true 0x654324 0
+chip-tool basicinformation read-by-id 17 0x654324 0
+chip-tool basicinformation write-by-id 18 ab12 0x654324 0
+chip-tool basicinformation read-by-id 18 0x654324 0
+chip-tool basicinformation write-by-id 18 test123 0x654324 0
+chip-tool basicinformation read-by-id 18 0x654324 0
+chip-tool basicinformation write-by-id 19 null 0x654324 0
+chip-tool basicinformation read-by-id 19 0x654324 0

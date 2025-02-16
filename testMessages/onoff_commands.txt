@@ -1,0 +1,71 @@
+==========FSM========
+chip-tool onoff write-by-id 0x0000 false 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0
+chip-tool onoff write-by-id 0x0000 true 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0
+chip-tool onoff write-by-id 0x4000 false 0x654324 0
+chip-tool onoff read-by-id 0x4000 0x654324 0
+chip-tool onoff write-by-id 0x4000 true 0x654324 0
+chip-tool onoff read-by-id 0x4000 0x654324 0
+chip-tool onoff write-by-id 0x4001 u:0 0x654324 0
+chip-tool onoff read-by-id 0x4001 0x654324 0
+chip-tool onoff write-by-id 0x4001 u:65535 0x654324 0
+chip-tool onoff read-by-id 0x4001 0x654324 0
+chip-tool onoff write-by-id 0x4002 u:0 0x654324 0
+chip-tool onoff read-by-id 0x4002 0x654324 0
+chip-tool onoff write-by-id 0x4002 u:65535 0x654324 0
+chip-tool onoff read-by-id 0x4002 0x654324 0
+chip-tool onoff write-by-id 0x4003 0 0x654324 0
+chip-tool onoff read-by-id 0x4003 0x654324 0
+chip-tool onoff write-by-id 0x4003 2 0x654324 0
+chip-tool onoff read-by-id 0x4003 0x654324 0
+chip-tool onoff write-by-id 0x4003 0 0x654324 0       
+chip-tool onoff read-by-id 0x4003 0x654324 0          
+chip-tool onoff read-by-id 0x0000 0x654324 0 
+chip-tool onoff write-by-id 0x4003 1 0x654324 0      
+chip-tool onoff read-by-id 0x4003 0x654324 0  
+chip-tool onoff write-by-id 0x4003 2 0x654324 0       
+chip-tool onoff read-by-id 0x4003 0x654324 0          
+chip-tool onoff read-by-id 0x0000 0x654324 0       
+chip-tool onoff read-by-id 0x0000 0x654324 0 
+chip-tool onoff command-by-id 0x00 '{}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0         
+chip-tool onoff read-by-id 0x4001 0x654324 0
+chip-tool onoff command-by-id 0x01 '{}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0        
+chip-tool onoff read-by-id 0x4002 0x654324 0 
+chip-tool onoff command-by-id 0x02 '{}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0          
+chip-tool onoff read-by-id 0x4001 0x654324 0          
+chip-tool onoff read-by-id 0x4002 0x654324 0 
+chip-tool onoff command-by-id 0x40 '{"0": 0, "1": 0}' 0x654324 0 
+chip-tool onoff read-by-id 0x0000 0x654324 0          
+chip-tool onoff read-by-id 0x4001 0x654324 0           
+chip-tool onoff command-by-id 0x40 '{"0": 0, "1": 1}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0          
+chip-tool onoff read-by-id 0x4001 0x654324 0     
+chip-tool onoff command-by-id 0x40 '{"0": 0, "1": 2}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0          
+chip-tool onoff read-by-id 0x4001 0x654324 0     
+chip-tool onoff command-by-id 0x40 '{"0": 1, "1": 0}' 0x654324 0  
+chip-tool onoff read-by-id 0x0000 0x654324 0          
+chip-tool onoff read-by-id 0x4001 0x654324 0   
+chip-tool onoff command-by-id 0x41 '{}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0         
+chip-tool onoff read-by-id 0x4000 0x654324 0 
+chip-tool onoff command-by-id 0x42 '{"0": 0, "1": 0, "2": 0}' 0x654324 0  
+chip-tool onoff read-by-id 0x0000 0x654324 0         
+chip-tool onoff read-by-id 0x4001 0x654324 0         
+chip-tool onoff read-by-id 0x4002 0x654324 0   
+chip-tool onoff command-by-id 0x42 '{"0": 1, "1": 254, "2": 0}' 0x654324 0
+chip-tool onoff read-by-id 0x0000 0x654324 0         
+chip-tool onoff read-by-id 0x4001 0x654324 0         
+chip-tool onoff read-by-id 0x4002 0x654324 0      
+chip-tool onoff command-by-id 0x42 '{"0": 1, "1": 0, "2": 254}' 0x654324 0 
+chip-tool onoff read-by-id 0x0000 0x654324 0         
+chip-tool onoff read-by-id 0x4001 0x654324 0         
+chip-tool onoff read-by-id 0x4002 0x654324 0     
+chip-tool onoff command-by-id 0x42 '{"0": 1, "1": 254, "2": 254}' 0x654324 0 
+chip-tool onoff read-by-id 0x0000 0x654324 0         
+chip-tool onoff read-by-id 0x4001 0x654324 0         
+chip-tool onoff read-by-id 0x4002 0x654324 0   

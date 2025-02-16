@@ -1,0 +1,16 @@
+==========FSM========
+chip-tool identify write-by-id 0x0000 u:0 0x654324 0
+chip-tool identify read-by-id 0x0000 0x654324 0
+chip-tool identify write-by-id 0x0000 u:65535 0x654324 0
+chip-tool identify read-by-id 0x0000 0x654324 0
+chip-tool identify write-by-id 0x0001 u:0 0x654324 0
+chip-tool identify read-by-id 0x0001 0x654324 0
+chip-tool identify write-by-id 0x0001 u:5 0x654324 0
+chip-tool identify read-by-id 0x0001 0x654324 0
+chip-tool identify command-by-id 0x00 '{"0":"u:0"}' 0x654324 0
+chip-tool identify read-by-id 0x0000 0x654324 0
+chip-tool identify command-by-id 0x00 '{"0":"u:65535"}' 0x654324 0
+chip-tool identify read-by-id 0x0000 0x654324 0
+chip-tool identify command-by-id 0x01 '{}' 0x654324 0
+chip-tool identify command-by-id 0x40 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool identify command-by-id 0x40 '{"0":"u:ff","1":"u:0"}' 0x654324 0

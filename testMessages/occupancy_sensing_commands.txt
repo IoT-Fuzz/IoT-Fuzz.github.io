@@ -1,0 +1,45 @@
+==========FSM========
+chip-tool occupancysensing write-by-id 0x0000 null 0x654324 0
+chip-tool occupancysensing read-by-id 0x0000 0x654324 0
+chip-tool occupancysensing write-by-id 0x0001 0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0001 0x654324 0
+chip-tool occupancysensing write-by-id 0x0001 3 0x654324 0
+chip-tool occupancysensing read-by-id 0x0001 0x654324 0
+chip-tool occupancysensing write-by-id 0x0002 null 0x654324 0
+chip-tool occupancysensing read-by-id 0x0002 0x654324 0
+chip-tool occupancysensing write-by-id 0x0010 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0010 0x654324 0
+chip-tool occupancysensing write-by-id 0x0010 u:65535 0x654324 0
+chip-tool occupancysensing read-by-id 0x0010 0x654324 0
+chip-tool occupancysensing write-by-id 0x0011 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0011 0x654324 0
+chip-tool occupancysensing write-by-id 0x0011 u:65535 0x654324 0
+chip-tool occupancysensing read-by-id 0x0011 0x654324 0
+chip-tool occupancysensing write-by-id 0x0012 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0012 0x654324 0
+chip-tool occupancysensing write-by-id 0x0012 u:255 0x654324 0
+chip-tool occupancysensing read-by-id 0x0012 0x654324 0
+chip-tool occupancysensing write-by-id 0x0020 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0020 0x654324 0
+chip-tool occupancysensing write-by-id 0x0020 u:65535 0x654324 0
+chip-tool occupancysensing read-by-id 0x0020 0x654324 0
+chip-tool occupancysensing write-by-id 0x0021 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0021 0x654324 0
+chip-tool occupancysensing write-by-id 0x0021 u:65535 0x654324 0
+chip-tool occupancysensing read-by-id 0x0021 0x654324 0
+chip-tool occupancysensing write-by-id 0x0022 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0022 0x654324 0
+chip-tool occupancysensing write-by-id 0x0022 u:255 0x654324 0
+chip-tool occupancysensing read-by-id 0x0022 0x654324 0
+chip-tool occupancysensing write-by-id 0x0030 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0030 0x654324 0
+chip-tool occupancysensing write-by-id 0x0030 u:65535 0x654324 0
+chip-tool occupancysensing read-by-id 0x0030 0x654324 0
+chip-tool occupancysensing write-by-id 0x0031 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0031 0x654324 0
+chip-tool occupancysensing write-by-id 0x0031 u:65535 0x654324 0
+chip-tool occupancysensing read-by-id 0x0031 0x654324 0
+chip-tool occupancysensing write-by-id 0x0032 u:0 0x654324 0
+chip-tool occupancysensing read-by-id 0x0032 0x654324 0
+chip-tool occupancysensing write-by-id 0x0032 u:255 0x654324 0
+chip-tool occupancysensing read-by-id 0x0032 0x654324 0

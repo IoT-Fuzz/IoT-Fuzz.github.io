@@ -1,0 +1,27 @@
+==========FSM========
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:0","1":0,"2":"ab12"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:0","1":0,"2":"test123"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:0","1":5,"2":"ab12"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:0","1":5,"2":"test123"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:255","1":0,"2":"ab12"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:255","1":0,"2":"test123"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:255","1":5,"2":"ab12"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0000 "[{"0":{"0":"u:255","1":5,"2":"test123"}}]" 0x654324 0
+chip-tool audiooutput read-by-id 0x0000 0x654324 0
+chip-tool audiooutput write-by-id 0x0001 u:0 0x654324 0
+chip-tool audiooutput read-by-id 0x0001 0x654324 0
+chip-tool audiooutput write-by-id 0x0001 u:255 0x654324 0
+chip-tool audiooutput read-by-id 0x0001 0x654324 0
+chip-tool audiooutput command-by-id 0x00 '{"0":"u:0"}' 0x654324 0
+chip-tool audiooutput command-by-id 0x00 '{"0":"u:255"}' 0x654324 0
+chip-tool audiooutput command-by-id 0x01 '{"0":"u:0","1":"a"}' 0x654324 0
+chip-tool audiooutput command-by-id 0x01 '{"0":"u:0","1":"a"}' 0x654324 0
+chip-tool audiooutput command-by-id 0x01 '{"0":"u:255","1":"a"}' 0x654324 0
+chip-tool audiooutput command-by-id 0x01 '{"0":"u:255","1":"a"}' 0x654324 0

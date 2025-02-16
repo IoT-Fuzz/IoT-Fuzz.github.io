@@ -1,0 +1,7 @@
+==========FSM========
+chip-tool localizationconfiguration write-by-id 0x00 ab12 0x654324 0
+chip-tool localizationconfiguration read-by-id 0x00 0x654324 0
+chip-tool localizationconfiguration write-by-id 0x00 test123 0x654324 0
+chip-tool localizationconfiguration read-by-id 0x00 0x654324 0
+chip-tool localizationconfiguration write-by-id 0x01 null 0x654324 0
+chip-tool localizationconfiguration read-by-id 0x01 0x654324 0

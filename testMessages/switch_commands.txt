@@ -1,0 +1,14 @@
+==========FSM========
+chip-tool switch write-by-id 0x0000 u:2 0x654324 0
+chip-tool switch read-by-id 0x0000 0x654324 0
+chip-tool switch write-by-id 0x0000 u:255 0x654324 0
+chip-tool switch read-by-id 0x0000 0x654324 0
+chip-tool switch read-by-id 0x0001 0x654324 0
+chip-tool switch write-by-id 0x0001 u:0 0x654324 0
+chip-tool switch read-by-id 0x0001 0x654324 0
+chip-tool switch write-by-id 0x0001 u:255 0x654324 0
+chip-tool switch read-by-id 0x0001 0x654324 0
+chip-tool switch write-by-id 0x0002 u:2 0x654324 0
+chip-tool switch read-by-id 0x0002 0x654324 0
+chip-tool switch write-by-id 0x0002 u:255 0x654324 0
+chip-tool switch read-by-id 0x0002 0x654324 0

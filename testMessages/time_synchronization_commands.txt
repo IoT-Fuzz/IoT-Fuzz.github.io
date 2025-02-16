@@ -1,0 +1,63 @@
+==========FSM========
+chip-tool timesynchronization write-by-id 0x0000 u:0 0x654324 0
+chip-tool timesynchronization read-by-id 0x0000 0x654324 0
+chip-tool timesynchronization write-by-id 0x0000 u:18446744073709551615 0x654324 0
+chip-tool timesynchronization read-by-id 0x0000 0x654324 0
+chip-tool timesynchronization write-by-id 0x0001 0 0x654324 0
+chip-tool timesynchronization read-by-id 0x0001 0x654324 0
+chip-tool timesynchronization write-by-id 0x0001 4 0x654324 0
+chip-tool timesynchronization read-by-id 0x0001 0x654324 0
+chip-tool timesynchronization write-by-id 0x0002 0 0x654324 0
+chip-tool timesynchronization read-by-id 0x0002 0x654324 0
+chip-tool timesynchronization write-by-id 0x0002 16 0x654324 0
+chip-tool timesynchronization read-by-id 0x0002 0x654324 0
+chip-tool timesynchronization write-by-id 0x0003 null 0x654324 0
+chip-tool timesynchronization read-by-id 0x0003 0x654324 0
+chip-tool timesynchronization write-by-id 0x0004 ab12 0x654324 0
+chip-tool timesynchronization read-by-id 0x0004 0x654324 0
+chip-tool timesynchronization write-by-id 0x0004 test123 0x654324 0
+chip-tool timesynchronization read-by-id 0x0004 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:-2147483648","1":"u:0","2":"ab12"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:-2147483648","1":"u:0","2":"test123"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:-2147483648","1":"u:18446744073709551615","2":"ab12"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:-2147483648","1":"u:18446744073709551615","2":"test123"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:2147483647","1":"u:0","2":"ab12"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:2147483647","1":"u:0","2":"test123"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:2147483647","1":"u:18446744073709551615","2":"ab12"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0005 "[{"0":{"0":"s:2147483647","1":"u:18446744073709551615","2":"test123"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0005 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:-2147483648","1":"u:0","2":"u:0"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:-2147483648","1":"u:0","2":"u:18446744073709551615"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:-2147483648","1":"u:18446744073709551615","2":"u:0"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:-2147483648","1":"u:18446744073709551615","2":"u:18446744073709551615"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:2147483647","1":"u:0","2":"u:0"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:2147483647","1":"u:0","2":"u:18446744073709551615"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:2147483647","1":"u:18446744073709551615","2":"u:0"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0006 "[{"0":{"0":"s:2147483647","1":"u:18446744073709551615","2":"u:18446744073709551615"}}]" 0x654324 0
+chip-tool timesynchronization read-by-id 0x0006 0x654324 0
+chip-tool timesynchronization write-by-id 0x0007 u:0 0x654324 0
+chip-tool timesynchronization read-by-id 0x0007 0x654324 0
+chip-tool timesynchronization write-by-id 0x0007 u:18446744073709551615 0x654324 0
+chip-tool timesynchronization read-by-id 0x0007 0x654324 0
+chip-tool timesynchronization write-by-id 0x0008 false 0x654324 0
+chip-tool timesynchronization read-by-id 0x0008 0x654324 0
+chip-tool timesynchronization write-by-id 0x0008 true 0x654324 0
+chip-tool timesynchronization read-by-id 0x0008 0x654324 0
+chip-tool timesynchronization write-by-id 0x0009 u:0 0x654324 0
+chip-tool timesynchronization read-by-id 0x0009 0x654324 0
+chip-tool timesynchronization write-by-id 0x0009 u:65535 0x654324 0
+chip-tool timesynchronization read-by-id 0x0009 0x654324 0

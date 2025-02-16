@@ -1,0 +1,27 @@
+==========FSM========
+chip-tool applicationbasic write-by-id 0x0000 ab12 0x654324 0
+chip-tool applicationbasic read-by-id 0x0000 0x654324 0
+chip-tool applicationbasic write-by-id 0x0000 test123 0x654324 0
+chip-tool applicationbasic read-by-id 0x0000 0x654324 0
+chip-tool applicationbasic write-by-id 0x0001 null 0x654324 0
+chip-tool applicationbasic read-by-id 0x0001 0x654324 0
+chip-tool applicationbasic write-by-id 0x0002 ab12 0x654324 0
+chip-tool applicationbasic read-by-id 0x0002 0x654324 0
+chip-tool applicationbasic write-by-id 0x0002 test123 0x654324 0
+chip-tool applicationbasic read-by-id 0x0002 0x654324 0
+chip-tool applicationbasic write-by-id 0x0003 u:0 0x654324 0
+chip-tool applicationbasic read-by-id 0x0003 0x654324 0
+chip-tool applicationbasic write-by-id 0x0003 u:65535 0x654324 0
+chip-tool applicationbasic read-by-id 0x0003 0x654324 0
+chip-tool applicationbasic write-by-id 0x0004 null 0x654324 0
+chip-tool applicationbasic read-by-id 0x0004 0x654324 0
+chip-tool applicationbasic write-by-id 0x0005 0 0x654324 0
+chip-tool applicationbasic read-by-id 0x0005 0x654324 0
+chip-tool applicationbasic write-by-id 0x0005 3 0x654324 0
+chip-tool applicationbasic read-by-id 0x0005 0x654324 0
+chip-tool applicationbasic write-by-id 0x0006 ab12 0x654324 0
+chip-tool applicationbasic read-by-id 0x0006 0x654324 0
+chip-tool applicationbasic write-by-id 0x0006 test123 0x654324 0
+chip-tool applicationbasic read-by-id 0x0006 0x654324 0
+chip-tool applicationbasic write-by-id 0x0007 null 0x654324 0
+chip-tool applicationbasic read-by-id 0x0007 0x654324 0

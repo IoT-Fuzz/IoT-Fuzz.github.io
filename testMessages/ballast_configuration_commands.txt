@@ -1,0 +1,57 @@
+==========FSM========
+chip-tool ballastconfiguration write-by-id 0x0000 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0000 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0000 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0000 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0001 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0001 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0001 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0001 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0002 0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0002 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0002 127 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0002 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0010 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0010 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0010 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0010 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0011 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0011 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0011 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0011 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0014 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0014 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0014 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0014 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0015 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0015 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0015 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0015 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0020 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0020 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0020 u:255 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0020 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0030 ab12 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0030 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0030 test123 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0030 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0031 ab12 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0031 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0031 test123 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0031 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0032 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0032 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0032 u:16777215 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0032 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0033 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0033 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0033 u:16777215 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0033 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0034 0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0034 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0034 127 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0034 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0035 u:0 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0035 0x654324 0
+chip-tool ballastconfiguration write-by-id 0x0035 u:16777215 0x654324 0
+chip-tool ballastconfiguration read-by-id 0x0035 0x654324 0

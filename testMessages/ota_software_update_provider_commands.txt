@@ -1,0 +1,9 @@
+==========FSM========
+chip-tool otasoftwareupdateprovider command-by-id 0x02 '{"0":"hex:00","1":"u:0"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x02 '{"0":"hex:00","1":"u:4294967295"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x02 '{"0":"hex:fffe","1":"u:0"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x02 '{"0":"hex:fffe","1":"u:4294967295"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x04 '{"0":"hex:00","1":"u:0"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x04 '{"0":"hex:00","1":"u:4294967295"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x04 '{"0":"hex:fffe","1":"u:0"}' 0x654324 0
+chip-tool otasoftwareupdateprovider command-by-id 0x04 '{"0":"hex:fffe","1":"u:4294967295"}' 0x654324 0

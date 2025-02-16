@@ -1,0 +1,29 @@
+==========FSM========
+chip-tool applicationlauncher write-by-id 0x0000 null 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0000 0x654324 0
+chip-tool applicationlauncher write-by-id 0x0001 null 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:0","1":"ab12"},"1":"hex:00"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:0","1":"ab12"},"1":"hex:fffe"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:0","1":"test123"},"1":"hex:00"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:0","1":"test123"},"1":"hex:fffe"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:65535","1":"ab12"},"1":"hex:00"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:65535","1":"ab12"},"1":"hex:fffe"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:65535","1":"test123"},"1":"hex:00"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x00 '{"0":{"0":"u:65535","1":"test123"},"1":"hex:fffe"}' 0x654324 0
+chip-tool applicationlauncher read-by-id 0x0001 0x654324 0
+chip-tool applicationlauncher command-by-id 0x01 '{"0":{"0":"u:0","1":"ab12"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x01 '{"0":{"0":"u:0","1":"test123"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x01 '{"0":{"0":"u:65535","1":"ab12"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x01 '{"0":{"0":"u:65535","1":"test123"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x02 '{"0":{"0":"u:0","1":"ab12"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x02 '{"0":{"0":"u:0","1":"test123"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x02 '{"0":{"0":"u:65535","1":"ab12"}}' 0x654324 0
+chip-tool applicationlauncher command-by-id 0x02 '{"0":{"0":"u:65535","1":"test123"}}' 0x654324 0

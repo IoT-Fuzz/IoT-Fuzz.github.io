@@ -1,0 +1,130 @@
+==========FSM========
+chip-tool windowcovering write-by-id 0x0000 0 0x654324 0
+chip-tool windowcovering read-by-id 0x0000 0x654324 0
+chip-tool windowcovering write-by-id 0x0000 255 0x654324 0
+chip-tool windowcovering read-by-id 0x0000 0x654324 0
+chip-tool windowcovering write-by-id 0x0001 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0001 0x654324 0
+chip-tool windowcovering write-by-id 0x0001 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0001 0x654324 0
+chip-tool windowcovering write-by-id 0x0002 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0002 0x654324 0
+chip-tool windowcovering write-by-id 0x0002 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0002 0x654324 0
+chip-tool windowcovering write-by-id 0x0003 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0003 0x654324 0
+chip-tool windowcovering write-by-id 0x0003 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0003 0x654324 0
+chip-tool windowcovering write-by-id 0x0004 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0004 0x654324 0
+chip-tool windowcovering write-by-id 0x0004 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0004 0x654324 0
+chip-tool windowcovering write-by-id 0x0005 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0005 0x654324 0
+chip-tool windowcovering write-by-id 0x0005 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0005 0x654324 0
+chip-tool windowcovering write-by-id 0x0006 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0006 0x654324 0
+chip-tool windowcovering write-by-id 0x0006 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0006 0x654324 0
+chip-tool windowcovering write-by-id 0x0007 null 0x654324 0
+chip-tool windowcovering read-by-id 0x0007 0x654324 0
+chip-tool windowcovering write-by-id 0x0008 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0008 0x654324 0
+chip-tool windowcovering write-by-id 0x0008 u:100 0x654324 0
+chip-tool windowcovering read-by-id 0x0008 0x654324 0
+chip-tool windowcovering write-by-id 0x0009 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0009 0x654324 0
+chip-tool windowcovering write-by-id 0x0009 u:100 0x654324 0
+chip-tool windowcovering read-by-id 0x0009 0x654324 0
+chip-tool windowcovering write-by-id 0x000A null 0x654324 0
+chip-tool windowcovering read-by-id 0x000A 0x654324 0
+chip-tool windowcovering write-by-id 0x000B u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering write-by-id 0x000B u:10000 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering write-by-id 0x000C u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering write-by-id 0x000C u:10000 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering write-by-id 0x000D 0 0x654324 0
+chip-tool windowcovering read-by-id 0x000D 0x654324 0
+chip-tool windowcovering write-by-id 0x000D 255 0x654324 0
+chip-tool windowcovering read-by-id 0x000D 0x654324 0
+chip-tool windowcovering write-by-id 0x000E u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x000E 0x654324 0
+chip-tool windowcovering write-by-id 0x000E u:10000 0x654324 0
+chip-tool windowcovering read-by-id 0x000E 0x654324 0
+chip-tool windowcovering write-by-id 0x000F u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x000F 0x654324 0
+chip-tool windowcovering write-by-id 0x000F u:10000 0x654324 0
+chip-tool windowcovering read-by-id 0x000F 0x654324 0
+chip-tool windowcovering write-by-id 0x0010 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0010 0x654324 0
+chip-tool windowcovering write-by-id 0x0010 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0010 0x654324 0
+chip-tool windowcovering write-by-id 0x0011 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0011 0x654324 0
+chip-tool windowcovering write-by-id 0x0011 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0011 0x654324 0
+chip-tool windowcovering write-by-id 0x0012 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0012 0x654324 0
+chip-tool windowcovering write-by-id 0x0012 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0012 0x654324 0
+chip-tool windowcovering write-by-id 0x0013 u:0 0x654324 0
+chip-tool windowcovering read-by-id 0x0013 0x654324 0
+chip-tool windowcovering write-by-id 0x0013 u:65535 0x654324 0
+chip-tool windowcovering read-by-id 0x0013 0x654324 0
+chip-tool windowcovering write-by-id 0x0017 null 0x654324 0
+chip-tool windowcovering read-by-id 0x0017 0x654324 0
+chip-tool windowcovering write-by-id 0x001A null 0x654324 0
+chip-tool windowcovering read-by-id 0x001A 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering command-by-id 0x00 '{}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering read-by-id 0x000E 0x654324 0
+chip-tool windowcovering read-by-id 0x000F 0x654324 0
+chip-tool windowcovering read-by-id 0x0008 0x654324 0
+chip-tool windowcovering read-by-id 0x0009 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering command-by-id 0x01 '{}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering read-by-id 0x000E 0x654324 0
+chip-tool windowcovering read-by-id 0x000F 0x654324 0
+chip-tool windowcovering read-by-id 0x0008 0x654324 0
+chip-tool windowcovering read-by-id 0x0009 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering command-by-id 0x02 '{}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering read-by-id 0x000E 0x654324 0
+chip-tool windowcovering read-by-id 0x000F 0x654324 0
+chip-tool windowcovering read-by-id 0x0008 0x654324 0
+chip-tool windowcovering read-by-id 0x0009 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x0010 0x654324 0
+chip-tool windowcovering read-by-id 0x0011 0x654324 0
+chip-tool windowcovering command-by-id 0x04 '{"0":"u:0"}' 0x654324 0
+chip-tool windowcovering read-by-id 0x0010 0x654324 0
+chip-tool windowcovering read-by-id 0x0011 0x654324 0
+chip-tool windowcovering command-by-id 0x04 '{"0":"u:65535"}' 0x654324 0
+chip-tool windowcovering command-by-id 0x05 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering command-by-id 0x05 '{"0":"u:65535","1":"u:0"}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000B 0x654324 0
+chip-tool windowcovering read-by-id 0x0013 0x654324 0
+chip-tool windowcovering read-by-id 0x0012 0x654324 0
+chip-tool windowcovering command-by-id 0x06 '{"0":"u:0"}' 0x654324 0
+chip-tool windowcovering read-by-id 0x0013 0x654324 0
+chip-tool windowcovering read-by-id 0x0012 0x654324 0
+chip-tool windowcovering command-by-id 0x06 '{"0":"u:65535"}' 0x654324 0
+chip-tool windowcovering command-by-id 0x07 '{"0":"u:0"}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0
+chip-tool windowcovering command-by-id 0x07 '{"0":"u:65535"}' 0x654324 0
+chip-tool windowcovering read-by-id 0x000C 0x654324 0

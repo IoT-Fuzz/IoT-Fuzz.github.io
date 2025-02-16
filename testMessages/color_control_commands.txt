@@ -1,0 +1,362 @@
+==========FSM========
+chip-tool colorcontrol write-by-id 0x0000 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol write-by-id 0x0000 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol write-by-id 0x0001 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol write-by-id 0x0001 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol write-by-id 0x0002 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol write-by-id 0x0002 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol write-by-id 0x0003 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol write-by-id 0x0003 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol write-by-id 0x0004 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol write-by-id 0x0004 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol write-by-id 0x0005 null 0x654324 0
+chip-tool colorcontrol read-by-id 0x0005 0x654324 0
+chip-tool colorcontrol write-by-id 0x0006 ab12 0x654324 0
+chip-tool colorcontrol read-by-id 0x0006 0x654324 0
+chip-tool colorcontrol write-by-id 0x0006 test123 0x654324 0
+chip-tool colorcontrol read-by-id 0x0006 0x654324 0
+chip-tool colorcontrol write-by-id 0x0007 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol write-by-id 0x0007 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol write-by-id 0x0008 null 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol write-by-id 0x000F 0 0x654324 0
+chip-tool colorcontrol read-by-id 0x000F 0x654324 0
+chip-tool colorcontrol write-by-id 0x000F 127 0x654324 0
+chip-tool colorcontrol read-by-id 0x000F 0x654324 0
+chip-tool colorcontrol write-by-id 0x0010 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0010 0x654324 0
+chip-tool colorcontrol write-by-id 0x0010 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0010 0x654324 0
+chip-tool colorcontrol write-by-id 0x0011 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0011 0x654324 0
+chip-tool colorcontrol write-by-id 0x0011 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0011 0x654324 0
+chip-tool colorcontrol write-by-id 0x0012 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0012 0x654324 0
+chip-tool colorcontrol write-by-id 0x0012 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0012 0x654324 0
+chip-tool colorcontrol write-by-id 0x0013 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0013 0x654324 0
+chip-tool colorcontrol write-by-id 0x0013 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0013 0x654324 0
+chip-tool colorcontrol write-by-id 0x0015 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0015 0x654324 0
+chip-tool colorcontrol write-by-id 0x0015 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0015 0x654324 0
+chip-tool colorcontrol write-by-id 0x0016 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0016 0x654324 0
+chip-tool colorcontrol write-by-id 0x0016 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0016 0x654324 0
+chip-tool colorcontrol write-by-id 0x0017 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0017 0x654324 0
+chip-tool colorcontrol write-by-id 0x0017 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0017 0x654324 0
+chip-tool colorcontrol write-by-id 0x0019 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0019 0x654324 0
+chip-tool colorcontrol write-by-id 0x0019 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0019 0x654324 0
+chip-tool colorcontrol write-by-id 0x001A u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x001A 0x654324 0
+chip-tool colorcontrol write-by-id 0x001A u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x001A 0x654324 0
+chip-tool colorcontrol write-by-id 0x001B u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x001B 0x654324 0
+chip-tool colorcontrol write-by-id 0x001B u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x001B 0x654324 0
+chip-tool colorcontrol write-by-id 0x0020 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0020 0x654324 0
+chip-tool colorcontrol write-by-id 0x0020 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0020 0x654324 0
+chip-tool colorcontrol write-by-id 0x0021 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0021 0x654324 0
+chip-tool colorcontrol write-by-id 0x0021 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0021 0x654324 0
+chip-tool colorcontrol write-by-id 0x0022 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0022 0x654324 0
+chip-tool colorcontrol write-by-id 0x0022 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0022 0x654324 0
+chip-tool colorcontrol write-by-id 0x0024 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0024 0x654324 0
+chip-tool colorcontrol write-by-id 0x0024 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0024 0x654324 0
+chip-tool colorcontrol write-by-id 0x0025 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0025 0x654324 0
+chip-tool colorcontrol write-by-id 0x0025 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0025 0x654324 0
+chip-tool colorcontrol write-by-id 0x0026 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0026 0x654324 0
+chip-tool colorcontrol write-by-id 0x0026 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0026 0x654324 0
+chip-tool colorcontrol write-by-id 0x0028 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0028 0x654324 0
+chip-tool colorcontrol write-by-id 0x0028 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0028 0x654324 0
+chip-tool colorcontrol write-by-id 0x0029 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0029 0x654324 0
+chip-tool colorcontrol write-by-id 0x0029 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0029 0x654324 0
+chip-tool colorcontrol write-by-id 0x002A u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x002A 0x654324 0
+chip-tool colorcontrol write-by-id 0x002A u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x002A 0x654324 0
+chip-tool colorcontrol write-by-id 0x0030 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0030 0x654324 0
+chip-tool colorcontrol write-by-id 0x0030 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0030 0x654324 0
+chip-tool colorcontrol write-by-id 0x0031 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0031 0x654324 0
+chip-tool colorcontrol write-by-id 0x0031 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0031 0x654324 0
+chip-tool colorcontrol write-by-id 0x0032 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0032 0x654324 0
+chip-tool colorcontrol write-by-id 0x0032 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0032 0x654324 0
+chip-tool colorcontrol write-by-id 0x0033 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0033 0x654324 0
+chip-tool colorcontrol write-by-id 0x0033 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0033 0x654324 0
+chip-tool colorcontrol write-by-id 0x0034 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0034 0x654324 0
+chip-tool colorcontrol write-by-id 0x0034 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0034 0x654324 0
+chip-tool colorcontrol write-by-id 0x0036 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0036 0x654324 0
+chip-tool colorcontrol write-by-id 0x0036 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0036 0x654324 0
+chip-tool colorcontrol write-by-id 0x0037 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0037 0x654324 0
+chip-tool colorcontrol write-by-id 0x0037 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x0037 0x654324 0
+chip-tool colorcontrol write-by-id 0x0038 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x0038 0x654324 0
+chip-tool colorcontrol write-by-id 0x0038 u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x0038 0x654324 0
+chip-tool colorcontrol write-by-id 0x003A u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x003A 0x654324 0
+chip-tool colorcontrol write-by-id 0x003A u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x003A 0x654324 0
+chip-tool colorcontrol write-by-id 0x003B u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x003B 0x654324 0
+chip-tool colorcontrol write-by-id 0x003B u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x003B 0x654324 0
+chip-tool colorcontrol write-by-id 0x003C u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x003C 0x654324 0
+chip-tool colorcontrol write-by-id 0x003C u:255 0x654324 0
+chip-tool colorcontrol read-by-id 0x003C 0x654324 0
+chip-tool colorcontrol write-by-id 0x400D u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x400D 0x654324 0
+chip-tool colorcontrol write-by-id 0x400D u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x400D 0x654324 0
+chip-tool colorcontrol write-by-id 0x4010 u:0 0x654324 0
+chip-tool colorcontrol read-by-id 0x4010 0x654324 0
+chip-tool colorcontrol write-by-id 0x4010 u:65535 0x654324 0
+chip-tool colorcontrol read-by-id 0x4010 0x654324 0
+chip-tool colorcontrol write-by-id 0x0000 u:120 0x654324 0  
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0     
+chip-tool colorcontrol write-by-id 0x0001 u:100 0x654324 0  
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0 
+chip-tool colorcontrol command-by-id 0x00 '{"0":"u:0","1":"0","2":"0"}' 0x654324 0  
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0   
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0    
+chip-tool colorcontrol write-by-id 0x0000 u:120 0x654324 0  
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0     
+chip-tool colorcontrol write-by-id 0x0001 u:100 0x654324 0  
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0 
+chip-tool colorcontrol command-by-id 0x01 '{"0":"u:0","1":"0","2":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0   
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol write-by-id 0x0007 u:4000 0x654324 0  
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0          
+chip-tool colorcontrol command-by-id 0x0A '{"0":"u:3000","1":"u:0","2":"10","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol write-by-id 0x4000 u:240 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol command-by-id 0x40 '{"0":"u:200","1":"u:1","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x4001 0x654324 0
+chip-tool colorcontrol read-by-id 0x4002 0x654324 0
+chip-tool colorcontrol command-by-id 0x42 '{"0":"u:10","1":"u:10","2":"0","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x4001 0x654324 0
+chip-tool colorcontrol read-by-id 0x4002 0x654324 0
+chip-tool colorcontrol read-by-id 0x4005 0x654324 0
+chip-tool colorcontrol read-by-id 0x4006 0x654324 0
+chip-tool colorcontrol command-by-id 0x44 '{"0":"u:1","1":"u:1","2":"u:20","3":"u:0","4":"u:10"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4002 0x654324 0
+chip-tool colorcontrol read-by-id 0x4003 0x654324 0
+chip-tool colorcontrol read-by-id 0x4004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x400B 0x654324 0
+chip-tool colorcontrol read-by-id 0x400C 0x654324 0
+chip-tool colorcontrol command-by-id 0x4B '{"0":"u:1","1":"u:10","2":"u:2700","3":"u:6500"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x400B 0x654324 0
+chip-tool colorcontrol read-by-id 0x400C 0x654324 0
+chip-tool colorcontrol command-by-id 0x4C '{"0":"u:100","1":"u:10","2":"u:2700","3":"u:6500"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol command-by-id 0x47 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x00 '{"0":"u:120","1":"0","2":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x07 '{"0":"u:32767","1":"u:32767","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x0A '{"0":"u:4000","1":"u:0","2":"10","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x40 '{"0":"u:200","1":"u:1","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4001 0x654324 0
+chip-tool colorcontrol command-by-id 0x40 '{"0":"u:200","1":"u:1","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x4006 0x654324 0
+chip-tool colorcontrol command-by-id 0x44 '{"0":"u:1","1":"u:1","2":"u:20","3":"u:0","4":"u:10"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4002 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x400A 0x654324 0
+chip-tool colorcontrol read-by-id 0x400B 0x654324 0
+chip-tool colorcontrol read-by-id 0x400C 0x654324 0
+chip-tool colorcontrol read-by-id 0x4010 0x654324 0
+chip-tool colorcontrol read-by-id 0x000F 0x654324 0
+chip-tool colorcontrol write-by-id 0x000F u:1 0x654324 0
+chip-tool colorcontrol read-by-id 0x000F 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x00 '{"0":"u:120","1":"0","2":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x01 '{"0":"u:1","1":"u:10","2":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol command-by-id 0x47 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x400B 0x654324 0
+chip-tool colorcontrol read-by-id 0x400C 0x654324 0
+chip-tool colorcontrol command-by-id 0x0A '{"0":"u:4000","1":"u:0","2":"10","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x07 '{"0":"u:32767","1":"u:32767","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x08 '{"0":"s:100","1":"s:100","2":"10","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol command-by-id 0x47 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x4001 0x654324 0
+chip-tool colorcontrol read-by-id 0x400A 0x654324 0
+chip-tool colorcontrol command-by-id 0x40 '{"0":"u:200","1":"u:1","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x4000 0x654324 0
+chip-tool colorcontrol read-by-id 0x4001 0x654324 0
+chip-tool colorcontrol read-by-id 0x4002 0x654324 0
+chip-tool colorcontrol read-by-id 0x4003 0x654324 0
+chip-tool colorcontrol read-by-id 0x4004 0x654324 0
+chip-tool colorcontrol command-by-id 0x44 '{"0":"u:1","1":"u:1","2":"u:10","3":"u:0","4":"u:100"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x4002 0x654324 0
+chip-tool colorcontrol read-by-id 0x4003 0x654324 0
+chip-tool colorcontrol read-by-id 0x4004 0x654324 0
+chip-tool colorcontrol read-by-id 0x4005 0x654324 0
+chip-tool colorcontrol command-by-id 0x00 '{"0":"u:120","1":"0","2":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x07 '{"0":"u:32767","1":"u:32767","2":"u:10","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x0A '{"0":"u:4000","1":"u:0","2":"10","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x07 '{"0":"u:65535","1":"u:65535","2":"u:100","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol command-by-id 0x00 '{"0":"u:0","1":"0","2":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol command-by-id 0x03 '{"0":"u:0","1":"u:0","2":"0","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x03 '{"0":"u:255","1":"u:65535","2":"127","3":"127"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x06 '{"0":"u:0","1":"u:0","2":"u:0","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0000 0x654324 0
+chip-tool colorcontrol read-by-id 0x0001 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x07 '{"0":"u:0","1":"u:0","2":"u:0","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x08 '{"0":"s:-32768","1":"s:-32768","2":"0","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol command-by-id 0x47 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x09 '{"0":"s:-32768","1":"s:-32768","2":"u:0","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0003 0x654324 0
+chip-tool colorcontrol read-by-id 0x0004 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x400B 0x654324 0
+chip-tool colorcontrol read-by-id 0x400C 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x0A '{"0":"u:0","1":"u:0","2":"0","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0007 0x654324 0
+chip-tool colorcontrol read-by-id 0x0002 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x06 '{"0":"u:120","1":"u:255","2":"u:0","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x07 '{"0":"u:32767","1":"u:32767","2":"u:0","3":"0","4":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+chip-tool colorcontrol command-by-id 0x0A '{"0":"u:4000","1":"u:0","2":"0","3":"0"}' 0x654324 0
+chip-tool colorcontrol read-by-id 0x0008 0x654324 0
+

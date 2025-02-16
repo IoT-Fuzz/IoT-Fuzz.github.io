@@ -1,0 +1,119 @@
+==========FSM========
+chip-tool powersource write-by-id 0x0000 0 0x654324 0
+chip-tool powersource read-by-id 0x0000 0x654324 0
+chip-tool powersource write-by-id 0x0000 3 0x654324 0
+chip-tool powersource read-by-id 0x0000 0x654324 0
+chip-tool powersource write-by-id 0x0001 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0001 0x654324 0
+chip-tool powersource write-by-id 0x0001 u:255 0x654324 0
+chip-tool powersource read-by-id 0x0001 0x654324 0
+chip-tool powersource write-by-id 0x0002 ab12 0x654324 0
+chip-tool powersource read-by-id 0x0002 0x654324 0
+chip-tool powersource write-by-id 0x0002 test123 0x654324 0
+chip-tool powersource read-by-id 0x0002 0x654324 0
+chip-tool powersource write-by-id 0x0003 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0003 0x654324 0
+chip-tool powersource write-by-id 0x0003 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0003 0x654324 0
+chip-tool powersource write-by-id 0x0004 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0004 0x654324 0
+chip-tool powersource write-by-id 0x0004 u:65535 0x654324 0
+chip-tool powersource read-by-id 0x0004 0x654324 0
+chip-tool powersource write-by-id 0x0005 0 0x654324 0
+chip-tool powersource read-by-id 0x0005 0x654324 0
+chip-tool powersource write-by-id 0x0005 1 0x654324 0
+chip-tool powersource read-by-id 0x0005 0x654324 0
+chip-tool powersource write-by-id 0x0006 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0006 0x654324 0
+chip-tool powersource write-by-id 0x0006 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0006 0x654324 0
+chip-tool powersource write-by-id 0x0007 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0007 0x654324 0
+chip-tool powersource write-by-id 0x0007 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0007 0x654324 0
+chip-tool powersource write-by-id 0x0008 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0008 0x654324 0
+chip-tool powersource write-by-id 0x0008 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0008 0x654324 0
+chip-tool powersource write-by-id 0x0009 false 0x654324 0
+chip-tool powersource read-by-id 0x0009 0x654324 0
+chip-tool powersource write-by-id 0x0009 true 0x654324 0
+chip-tool powersource read-by-id 0x0009 0x654324 0
+chip-tool powersource write-by-id 0x000A null 0x654324 0
+chip-tool powersource read-by-id 0x000A 0x654324 0
+chip-tool powersource write-by-id 0x000B u:0 0x654324 0
+chip-tool powersource read-by-id 0x000B 0x654324 0
+chip-tool powersource write-by-id 0x000B u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x000B 0x654324 0
+chip-tool powersource write-by-id 0x000C u:0 0x654324 0
+chip-tool powersource read-by-id 0x000C 0x654324 0
+chip-tool powersource write-by-id 0x000C u:255 0x654324 0
+chip-tool powersource read-by-id 0x000C 0x654324 0
+chip-tool powersource write-by-id 0x000D u:0 0x654324 0
+chip-tool powersource read-by-id 0x000D 0x654324 0
+chip-tool powersource write-by-id 0x000D u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x000D 0x654324 0
+chip-tool powersource write-by-id 0x000E 0 0x654324 0
+chip-tool powersource read-by-id 0x000E 0x654324 0
+chip-tool powersource write-by-id 0x000E 2 0x654324 0
+chip-tool powersource read-by-id 0x000E 0x654324 0
+chip-tool powersource write-by-id 0x000F false 0x654324 0
+chip-tool powersource read-by-id 0x000F 0x654324 0
+chip-tool powersource write-by-id 0x000F true 0x654324 0
+chip-tool powersource read-by-id 0x000F 0x654324 0
+chip-tool powersource write-by-id 0x0010 0 0x654324 0
+chip-tool powersource read-by-id 0x0010 0x654324 0
+chip-tool powersource write-by-id 0x0010 3 0x654324 0
+chip-tool powersource read-by-id 0x0010 0x654324 0
+chip-tool powersource write-by-id 0x0011 false 0x654324 0
+chip-tool powersource read-by-id 0x0011 0x654324 0
+chip-tool powersource write-by-id 0x0011 true 0x654324 0
+chip-tool powersource read-by-id 0x0011 0x654324 0
+chip-tool powersource write-by-id 0x0012 null 0x654324 0
+chip-tool powersource read-by-id 0x0012 0x654324 0
+chip-tool powersource write-by-id 0x0013 ab12 0x654324 0
+chip-tool powersource read-by-id 0x0013 0x654324 0
+chip-tool powersource write-by-id 0x0013 test123 0x654324 0
+chip-tool powersource read-by-id 0x0013 0x654324 0
+chip-tool powersource write-by-id 0x0014 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0014 0x654324 0
+chip-tool powersource write-by-id 0x0014 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0014 0x654324 0
+chip-tool powersource write-by-id 0x0015 ab12 0x654324 0
+chip-tool powersource read-by-id 0x0015 0x654324 0
+chip-tool powersource write-by-id 0x0015 test123 0x654324 0
+chip-tool powersource read-by-id 0x0015 0x654324 0
+chip-tool powersource write-by-id 0x0016 ab12 0x654324 0
+chip-tool powersource read-by-id 0x0016 0x654324 0
+chip-tool powersource write-by-id 0x0016 test123 0x654324 0
+chip-tool powersource read-by-id 0x0016 0x654324 0
+chip-tool powersource write-by-id 0x0017 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0017 0x654324 0
+chip-tool powersource write-by-id 0x0017 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0017 0x654324 0
+chip-tool powersource write-by-id 0x0018 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0018 0x654324 0
+chip-tool powersource write-by-id 0x0018 u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x0018 0x654324 0
+chip-tool powersource write-by-id 0x0019 u:0 0x654324 0
+chip-tool powersource read-by-id 0x0019 0x654324 0
+chip-tool powersource write-by-id 0x0019 u:255 0x654324 0
+chip-tool powersource read-by-id 0x0019 0x654324 0
+chip-tool powersource write-by-id 0x001A 0 0x654324 0
+chip-tool powersource read-by-id 0x001A 0x654324 0
+chip-tool powersource write-by-id 0x001A 3 0x654324 0
+chip-tool powersource read-by-id 0x001A 0x654324 0
+chip-tool powersource write-by-id 0x001B u:0 0x654324 0
+chip-tool powersource read-by-id 0x001B 0x654324 0
+chip-tool powersource write-by-id 0x001B u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x001B 0x654324 0
+chip-tool powersource write-by-id 0x001C false 0x654324 0
+chip-tool powersource read-by-id 0x001C 0x654324 0
+chip-tool powersource write-by-id 0x001C true 0x654324 0
+chip-tool powersource read-by-id 0x001C 0x654324 0
+chip-tool powersource write-by-id 0x001D u:0 0x654324 0
+chip-tool powersource read-by-id 0x001D 0x654324 0
+chip-tool powersource write-by-id 0x001D u:4294967295 0x654324 0
+chip-tool powersource read-by-id 0x001D 0x654324 0
+chip-tool powersource write-by-id 0x001E null 0x654324 0
+chip-tool powersource read-by-id 0x001E 0x654324 0

@@ -1,0 +1,48 @@
+==========FSM========
+chip-tool administratorcommissioning write-by-id 0x0000 0 0x654324 0
+chip-tool administratorcommissioning read-by-id 0x0000 0x654324 0
+chip-tool administratorcommissioning write-by-id 0x0000 2 0x654324 0
+chip-tool administratorcommissioning read-by-id 0x0000 0x654324 0
+chip-tool administratorcommissioning write-by-id 0x0001 u:0 0x654324 0
+chip-tool administratorcommissioning read-by-id 0x0001 0x654324 0
+chip-tool administratorcommissioning write-by-id 0x0001 u:255 0x654324 0
+chip-tool administratorcommissioning read-by-id 0x0001 0x654324 0
+chip-tool administratorcommissioning write-by-id 0x0002 u:0 0x654324 0
+chip-tool administratorcommissioning read-by-id 0x0002 0x654324 0
+chip-tool administratorcommissioning write-by-id 0x0002 u:65535 0x654324 0
+chip-tool administratorcommissioning read-by-id 0x0002 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:0","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:0","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:0","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:0","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:65535","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:65535","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:65535","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:00","2":"u:65535","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:0","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:0","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:0","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:0","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:65535","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:65535","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:65535","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:0","1":"hex:fffe","2":"u:65535","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:0","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:0","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:0","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:0","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:65535","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:65535","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:65535","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:00","2":"u:65535","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:0","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:0","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:0","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:0","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:65535","3":"u:0","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:65535","3":"u:0","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:65535","3":"u:4294967295","4":"hex:00"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x00 '{"0":"u:65535","1":"hex:fffe","2":"u:65535","3":"u:4294967295","4":"hex:fffe"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x01 '{"0":"u:0"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x01 '{"0":"u:65535"}' 0x654324 0
+chip-tool administratorcommissioning command-by-id 0x02 '{}' 0x654324 0

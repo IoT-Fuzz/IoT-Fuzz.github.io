@@ -1,0 +1,15 @@
+==========FSM========
+chip-tool descriptor write-by-id 0x0000 "[{"0":{"0":"u:0","1":"u:0"}}]" 0x654324 0
+chip-tool descriptor read-by-id 0x0000 0x654324 0
+chip-tool descriptor write-by-id 0x0000 "[{"0":{"0":"u:0","1":"u:65535"}}]" 0x654324 0
+chip-tool descriptor read-by-id 0x0000 0x654324 0
+chip-tool descriptor write-by-id 0x0000 "[{"0":{"0":"u:65535","1":"u:0"}}]" 0x654324 0
+chip-tool descriptor read-by-id 0x0000 0x654324 0
+chip-tool descriptor write-by-id 0x0000 "[{"0":{"0":"u:65535","1":"u:65535"}}]" 0x654324 0
+chip-tool descriptor read-by-id 0x0000 0x654324 0
+chip-tool descriptor write-by-id 0x0001 null 0x654324 0
+chip-tool descriptor read-by-id 0x0001 0x654324 0
+chip-tool descriptor write-by-id 0x0002 null 0x654324 0
+chip-tool descriptor read-by-id 0x0002 0x654324 0
+chip-tool descriptor write-by-id 0x0003 null 0x654324 0
+chip-tool descriptor read-by-id 0x0003 0x654324 0

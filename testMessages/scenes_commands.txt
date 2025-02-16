@@ -1,0 +1,85 @@
+==========FSM========
+chip-tool scenes write-by-id 0x0000 u:0 0x654324 0
+chip-tool scenes read-by-id 0x0000 0x654324 0
+chip-tool scenes write-by-id 0x0000 u:255 0x654324 0
+chip-tool scenes read-by-id 0x0000 0x654324 0
+chip-tool scenes write-by-id 0x0001 u:0 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes write-by-id 0x0001 u:255 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes write-by-id 0x0002 null 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes write-by-id 0x0003 false 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes write-by-id 0x0003 true 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes write-by-id 0x0004 0 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes write-by-id 0x0004 127 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes write-by-id 0x0005 null 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x00 '{"0":"u:0","1":"u:0","2":"u:0","3":"ab12","4":[{"0":"u:0","1":[{"0":"u:0","1":"u:0"}]}]}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x00 '{"0":"u:65535","1":"u:255","2":"u:65535","3":"test123","4":[{"0":"u:65535","1":[{"0":"u:65535","1":"u:255"}]}]}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x01 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool scenes command-by-id 0x01 '{"0":"u:65535","1":"u:255"}' 0x654324 0
+chip-tool scenes command-by-id 0x02 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x02 '{"0":"u:65535","1":"u:255"}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x03 '{"0":"u:0"}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x03 '{"0":"u:65535"}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x04 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool scenes command-by-id 0x04 '{"0":"u:65535","1":"u:255"}' 0x654324 0
+chip-tool scenes command-by-id 0x05 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool scenes command-by-id 0x05 '{"0":"u:65535","1":"u:255"}' 0x654324 0
+chip-tool scenes command-by-id 0x06 '{"0":"u:0"}' 0x654324 0
+chip-tool scenes command-by-id 0x06 '{"0":"u:65535"}' 0x654324 0
+chip-tool scenes command-by-id 0x40 '{"0":"u:0","1":"u:0","2":"u:0","3":"ab12","4":[{"0":"u:0","1":[{"0":"u:0","1":"u:0"}]}]}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x40 '{"0":"u:65535","1":"u:255","2":"u:65535","3":"test123","4":[{"0":"u:65535","1":[{"0":"u:65535","1":"u:255"}]}]}' 0x654324 0
+chip-tool scenes read-by-id 0x0004 0x654324 0
+chip-tool scenes read-by-id 0x0003 0x654324 0
+chip-tool scenes read-by-id 0x0002 0x654324 0
+chip-tool scenes read-by-id 0x0001 0x654324 0
+chip-tool scenes read-by-id 0x0005 0x654324 0
+chip-tool scenes command-by-id 0x41 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool scenes command-by-id 0x41 '{"0":"u:65535","1":"u:255"}' 0x654324 0
+chip-tool scenes command-by-id 0x42 '{"0":"u:1","1":"u:0","2":"u:0","3":"u:65535","4":"u:255"}' 0x654324 0

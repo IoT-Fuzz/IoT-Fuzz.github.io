@@ -1,0 +1,5 @@
+==========FSM========
+chip-tool booleanstate write-by-id 0x0000 false 0x654324 0
+chip-tool booleanstate read-by-id 0x0000 0x654324 0
+chip-tool booleanstate write-by-id 0x0000 true 0x654324 0
+chip-tool booleanstate read-by-id 0x0000 0x654324 0

@@ -1,0 +1,5 @@
+==========FSM========
+chip-tool powersourceconfiguration write-by-id 0x0000 '["0"]' 0x654324 0
+chip-tool powersourceconfiguration read-by-id 0x0000 0x654324 0
+chip-tool powersourceconfiguration write-by-id 0x0000 '["65535"]' 0x654324 0
+chip-tool powersourceconfiguration read-by-id 0x0000 0x654324 0

@@ -1,0 +1,200 @@
+==========FSM========
+chip-tool levelcontrol write-by-id 0x0000 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol write-by-id 0x0000 u:255 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol write-by-id 0x0001 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol write-by-id 0x0001 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol write-by-id 0x0002 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0002 0x654324 0
+chip-tool levelcontrol write-by-id 0x0002 u:255 0x654324 0
+chip-tool levelcontrol read-by-id 0x0002 0x654324 0
+chip-tool levelcontrol write-by-id 0x0003 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0003 0x654324 0
+chip-tool levelcontrol write-by-id 0x0003 u:255 0x654324 0
+chip-tool levelcontrol read-by-id 0x0003 0x654324 0
+chip-tool levelcontrol write-by-id 0x0004 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0004 0x654324 0
+chip-tool levelcontrol write-by-id 0x0004 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0004 0x654324 0
+chip-tool levelcontrol write-by-id 0x0005 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0005 0x654324 0
+chip-tool levelcontrol write-by-id 0x0005 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0005 0x654324 0
+chip-tool levelcontrol write-by-id 0x0006 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0006 0x654324 0
+chip-tool levelcontrol write-by-id 0x0006 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0006 0x654324 0
+chip-tool levelcontrol write-by-id 0x0010 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0010 0x654324 0
+chip-tool levelcontrol write-by-id 0x0010 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0010 0x654324 0
+chip-tool levelcontrol write-by-id 0x0011 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0011 0x654324 0
+chip-tool levelcontrol write-by-id 0x0011 u:255 0x654324 0
+chip-tool levelcontrol read-by-id 0x0011 0x654324 0
+chip-tool levelcontrol write-by-id 0x0012 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0012 0x654324 0
+chip-tool levelcontrol write-by-id 0x0012 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0012 0x654324 0
+chip-tool levelcontrol write-by-id 0x0013 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0013 0x654324 0
+chip-tool levelcontrol write-by-id 0x0013 u:65535 0x654324 0
+chip-tool levelcontrol read-by-id 0x0013 0x654324 0
+chip-tool levelcontrol write-by-id 0x0014 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x0014 0x654324 0
+chip-tool levelcontrol write-by-id 0x0014 u:255 0x654324 0
+chip-tool levelcontrol read-by-id 0x0014 0x654324 0
+chip-tool levelcontrol write-by-id 0x000F null 0x654324 0
+chip-tool levelcontrol read-by-id 0x000F 0x654324 0
+chip-tool levelcontrol write-by-id 0x4000 u:0 0x654324 0
+chip-tool levelcontrol read-by-id 0x4000 0x654324 0
+chip-tool levelcontrol write-by-id 0x4000 u:255 0x654324 0
+chip-tool levelcontrol read-by-id 0x4000 0x654324 0
+chip-tool onoff off 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:254", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:1", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0 
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:254", "1":"u:1000", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0 
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0 
+chip-tool levelcontrol write-by-id 0x0005 u:0 0x654324 0    
+chip-tool levelcontrol write-by-id 0x0006 u:2000 0x654324 0 
+chip-tool levelcontrol write-by-id 0x0005 u:0 0x654324 0     
+chip-tool levelcontrol write-by-id 0x0006 u:65535 0x654324 0 
+chip-tool levelcontrol read-by-id 0x0005 0x654324 0
+chip-tool levelcontrol read-by-id 0x0006 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:254", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:100", "1":"u:1000", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:1", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:254", "1":"u:1000", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:100", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol command-by-id 0x02 '{"0":"u:0", "1":"u:10", "2":"u:500", "3":"u:0", "4":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol command-by-id 0x01 '{"0":"u:0", "1":"u:20", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol command-by-id 0x03 '{"0":"u:0", "1":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff off 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:1", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:254", "1":"u:1000", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool onoff off 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:127", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x05 '{"0":"u:0", "1":"u:20", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool onoff off 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:100", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x06 '{"0":"u:0", "1":"u:10", "2":"u:500", "3":"u:0", "4":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x07 '{"0":"u:0", "1":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x08 '{"0":"u:1000"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0004 0x654324 0 
+chip-tool levelcontrol command-by-id 0x08 '{"0":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0004 0x654324 0 
+chip-tool levelcontrol command-by-id 0x08 '{"0":"u:65535"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0004 0x654324 0 
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:254", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x00 '{"0":"u:100", "1":"u:1000", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:200", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x02 '{"0":"u:1", "1":"u:20", "2":"u:500", "3":"u:0", "4":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:127", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol command-by-id 0x01 '{"0":"u:0", "1":"u:20", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x03 '{"0":"u:0", "1":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:50", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:254", "1":"u:1000", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:127", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x05 '{"0":"u:0", "1":"u:20", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:200", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x06 '{"0":"u:1", "1":"u:20", "2":"u:500", "3":"u:0", "4":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0001 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x04 '{"0":"u:127", "1":"u:0", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol command-by-id 0x05 '{"0":"u:0", "1":"u:20", "2":"u:0", "3":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol command-by-id 0x07 '{"0":"u:0", "1":"u:0"}' 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+chip-tool levelcontrol read-by-id 0x0000 0x654324 0
+chip-tool onoff read onoff 0x654324 0
+

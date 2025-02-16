@@ -1,0 +1,33 @@
+==========FSM========
+chip-tool generalcommissioning write-by-id 0x00 u:0 0x654324 0
+chip-tool generalcommissioning read-by-id 0x00 0x654324 0
+chip-tool generalcommissioning write-by-id 0x00 u:18446744073709551615 0x654324 0
+chip-tool generalcommissioning read-by-id 0x00 0x654324 0
+chip-tool generalcommissioning write-by-id 0x01 null 0x654324 0
+chip-tool generalcommissioning read-by-id 0x01 0x654324 0
+chip-tool generalcommissioning write-by-id 0x02 0 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning write-by-id 0x02 2 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning write-by-id 0x03 0 0x654324 0
+chip-tool generalcommissioning read-by-id 0x03 0x654324 0
+chip-tool generalcommissioning write-by-id 0x03 2 0x654324 0
+chip-tool generalcommissioning read-by-id 0x03 0x654324 0
+chip-tool generalcommissioning write-by-id 0x04 false 0x654324 0
+chip-tool generalcommissioning read-by-id 0x04 0x654324 0
+chip-tool generalcommissioning write-by-id 0x04 true 0x654324 0
+chip-tool generalcommissioning read-by-id 0x04 0x654324 0
+chip-tool generalcommissioning command-by-id 0x00 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool generalcommissioning command-by-id 0x00 '{"0":"u:0","1":"u:18446744073709551615"}' 0x654324 0
+chip-tool generalcommissioning command-by-id 0x00 '{"0":"u:65535","1":"u:0"}' 0x654324 0
+chip-tool generalcommissioning command-by-id 0x00 '{"0":"u:65535","1":"u:18446744073709551615"}' 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning command-by-id 2 '{"0":"0x00","1":"US","2":"u:0"}' 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning command-by-id 2 '{"0":"0x01","1":"CN","2":"u:18446744073709551615"}' 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning command-by-id 2 '{"0":"0x02","1":"DE","2":"u:0"}' 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning command-by-id 2 '{"0":"0x00","1":"IN","2":"u:18446744073709551615"}' 0x654324 0
+chip-tool generalcommissioning read-by-id 0x02 0x654324 0
+chip-tool generalcommissioning command-by-id 0x04 '{}' 0x654324 0

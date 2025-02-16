@@ -1,0 +1,5 @@
+==========FSM========
+chip-tool unitlocalization write-by-id 0x00 0 0x654324 0
+chip-tool unitlocalization read-by-id 0x00 0x654324 0
+chip-tool unitlocalization write-by-id 0x00 2 0x654324 0
+chip-tool unitlocalization read-by-id 0x00 0x654324 0

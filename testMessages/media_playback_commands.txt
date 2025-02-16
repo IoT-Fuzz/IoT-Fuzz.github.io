@@ -1,0 +1,52 @@
+==========FSM========
+chip-tool mediaplayback write-by-id 0x0000 0 0x654324 0
+chip-tool mediaplayback read-by-id 0x0000 0x654324 0
+chip-tool mediaplayback write-by-id 0x0000 3 0x654324 0
+chip-tool mediaplayback read-by-id 0x0000 0x654324 0
+chip-tool mediaplayback write-by-id 0x0001 u:0 0x654324 0
+chip-tool mediaplayback read-by-id 0x0001 0x654324 0
+chip-tool mediaplayback write-by-id 0x0001 u:18446744073709551615 0x654324 0
+chip-tool mediaplayback read-by-id 0x0001 0x654324 0
+chip-tool mediaplayback write-by-id 0x0002 u:0 0x654324 0
+chip-tool mediaplayback read-by-id 0x0002 0x654324 0
+chip-tool mediaplayback write-by-id 0x0002 u:18446744073709551615 0x654324 0
+chip-tool mediaplayback read-by-id 0x0002 0x654324 0
+chip-tool mediaplayback write-by-id 0x0003 null 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0
+chip-tool mediaplayback write-by-id 0x0004 f:1.1754944e-38 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback write-by-id 0x0004 f:3.4028235e+38 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback write-by-id 0x0005 u:0 0x654324 0
+chip-tool mediaplayback read-by-id 0x0005 0x654324 0
+chip-tool mediaplayback write-by-id 0x0005 u:18446744073709551615 0x654324 0
+chip-tool mediaplayback read-by-id 0x0005 0x654324 0
+chip-tool mediaplayback write-by-id 0x0006 u:0 0x654324 0
+chip-tool mediaplayback read-by-id 0x0006 0x654324 0
+chip-tool mediaplayback write-by-id 0x0006 u:18446744073709551615 0x654324 0
+chip-tool mediaplayback read-by-id 0x0006 0x654324 0
+chip-tool mediaplayback command-by-id 0x00 '{}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback command-by-id 0x01 '{}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback command-by-id 0x02 '{}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback command-by-id 0x03 '{}' 0x654324 0
+chip-tool mediaplayback command-by-id 0x04 '{}' 0x654324 0
+chip-tool mediaplayback command-by-id 0x05 '{}' 0x654324 0
+chip-tool mediaplayback command-by-id 0x06 '{}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback command-by-id 0x07 '{}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0004 0x654324 0
+chip-tool mediaplayback command-by-id 0x08 '{"0":"u:0"}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0
+chip-tool mediaplayback command-by-id 0x08 '{"0":"u:18446744073709551615"}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0
+chip-tool mediaplayback command-by-id 0x09 '{"0":"u:0"}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0
+chip-tool mediaplayback command-by-id 0x09 '{"0":"u:18446744073709551615"}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0
+chip-tool mediaplayback command-by-id 0x0B '{"0":"u:0"}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0
+chip-tool mediaplayback command-by-id 0x0B '{"0":"u:18446744073709551615"}' 0x654324 0
+chip-tool mediaplayback read-by-id 0x0003 0x654324 0

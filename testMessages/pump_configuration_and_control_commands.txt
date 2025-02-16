@@ -1,0 +1,91 @@
+==========FSM========
+chip-tool pumpconfigurationandcontrol write-by-id 0x0000 s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0000 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0000 s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0000 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0001 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0001 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0001 u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0001 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0002 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0002 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0002 u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0002 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0003 s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0003 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0003 s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0003 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0004 s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0004 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0004 s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0004 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0005 s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0005 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0005 s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0005 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0006 s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0006 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0006 s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0006 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0007 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0007 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0007 u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0007 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0008 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0008 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0008 u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0008 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0009 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0009 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0009 u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0009 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x000A u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x000A 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x000A u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x000A 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x000B s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x000B 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x000B s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x000B 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x000C s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x000C 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x000C s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x000C 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0010 null 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0010 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0011 0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0011 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0011 3 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0011 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0012 0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0012 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0012 7 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0012 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0013 s:-32768 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0013 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0013 s:32767 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0013 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0014 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0014 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0014 u:65535 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0014 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0015 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0015 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0015 u:16777215 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0015 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0016 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0016 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0016 u:16777215 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0016 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0017 u:0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0017 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0017 u:4294967295 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0017 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0020 0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0020 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0020 3 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0020 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0021 0 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0021 0x654324 0
+chip-tool pumpconfigurationandcontrol write-by-id 0x0021 7 0x654324 0
+chip-tool pumpconfigurationandcontrol read-by-id 0x0021 0x654324 0

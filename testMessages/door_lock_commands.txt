@@ -1,0 +1,319 @@
+==========FSM========
+chip-tool doorlock write-by-id 0 0 0x654324 0
+chip-tool doorlock read-by-id 0 0x654324 0
+chip-tool doorlock write-by-id 0 2 0x654324 0
+chip-tool doorlock read-by-id 0 0x654324 0
+chip-tool doorlock write-by-id 1 0 0x654324 0
+chip-tool doorlock read-by-id 1 0x654324 0
+chip-tool doorlock write-by-id 1 10 0x654324 0
+chip-tool doorlock read-by-id 1 0x654324 0
+chip-tool doorlock write-by-id 2 false 0x654324 0
+chip-tool doorlock read-by-id 2 0x654324 0
+chip-tool doorlock write-by-id 2 true 0x654324 0
+chip-tool doorlock read-by-id 2 0x654324 0
+chip-tool doorlock write-by-id 3 0 0x654324 0
+chip-tool doorlock read-by-id 3 0x654324 0
+chip-tool doorlock write-by-id 3 5 0x654324 0
+chip-tool doorlock read-by-id 3 0x654324 0
+chip-tool doorlock write-by-id 4 u:0 0x654324 0
+chip-tool doorlock read-by-id 4 0x654324 0
+chip-tool doorlock write-by-id 4 u:4294967295 0x654324 0
+chip-tool doorlock read-by-id 4 0x654324 0
+chip-tool doorlock write-by-id 5 u:0 0x654324 0
+chip-tool doorlock read-by-id 5 0x654324 0
+chip-tool doorlock write-by-id 5 u:4294967295 0x654324 0
+chip-tool doorlock read-by-id 5 0x654324 0
+chip-tool doorlock write-by-id 6 u:0 0x654324 0
+chip-tool doorlock read-by-id 6 0x654324 0
+chip-tool doorlock write-by-id 6 u:65535 0x654324 0
+chip-tool doorlock read-by-id 6 0x654324 0
+chip-tool doorlock write-by-id 16 u:0 0x654324 0
+chip-tool doorlock read-by-id 16 0x654324 0
+chip-tool doorlock write-by-id 16 u:65535 0x654324 0
+chip-tool doorlock read-by-id 16 0x654324 0
+chip-tool doorlock write-by-id 17 u:0 0x654324 0
+chip-tool doorlock read-by-id 17 0x654324 0
+chip-tool doorlock write-by-id 17 u:65535 0x654324 0
+chip-tool doorlock read-by-id 17 0x654324 0
+chip-tool doorlock write-by-id 18 u:0 0x654324 0
+chip-tool doorlock read-by-id 18 0x654324 0
+chip-tool doorlock write-by-id 18 u:65535 0x654324 0
+chip-tool doorlock read-by-id 18 0x654324 0
+chip-tool doorlock write-by-id 19 u:0 0x654324 0
+chip-tool doorlock read-by-id 19 0x654324 0
+chip-tool doorlock write-by-id 19 u:65535 0x654324 0
+chip-tool doorlock read-by-id 19 0x654324 0
+chip-tool doorlock write-by-id 20 u:0 0x654324 0
+chip-tool doorlock read-by-id 20 0x654324 0
+chip-tool doorlock write-by-id 20 u:255 0x654324 0
+chip-tool doorlock read-by-id 20 0x654324 0
+chip-tool doorlock write-by-id 21 u:0 0x654324 0
+chip-tool doorlock read-by-id 21 0x654324 0
+chip-tool doorlock write-by-id 21 u:255 0x654324 0
+chip-tool doorlock read-by-id 21 0x654324 0
+chip-tool doorlock write-by-id 22 u:0 0x654324 0
+chip-tool doorlock read-by-id 22 0x654324 0
+chip-tool doorlock write-by-id 22 u:255 0x654324 0
+chip-tool doorlock read-by-id 22 0x654324 0
+chip-tool doorlock write-by-id 23 u:0 0x654324 0
+chip-tool doorlock read-by-id 23 0x654324 0
+chip-tool doorlock write-by-id 23 u:255 0x654324 0
+chip-tool doorlock read-by-id 23 0x654324 0
+chip-tool doorlock write-by-id 24 u:0 0x654324 0
+chip-tool doorlock read-by-id 24 0x654324 0
+chip-tool doorlock write-by-id 24 u:255 0x654324 0
+chip-tool doorlock read-by-id 24 0x654324 0
+chip-tool doorlock write-by-id 25 u:0 0x654324 0
+chip-tool doorlock read-by-id 25 0x654324 0
+chip-tool doorlock write-by-id 25 u:255 0x654324 0
+chip-tool doorlock read-by-id 25 0x654324 0
+chip-tool doorlock write-by-id 26 u:0 0x654324 0
+chip-tool doorlock read-by-id 26 0x654324 0
+chip-tool doorlock write-by-id 26 u:255 0x654324 0
+chip-tool doorlock read-by-id 26 0x654324 0
+chip-tool doorlock write-by-id 27 0 0x654324 0
+chip-tool doorlock read-by-id 27 0x654324 0
+chip-tool doorlock write-by-id 27 127 0x654324 0
+chip-tool doorlock read-by-id 27 0x654324 0
+chip-tool doorlock write-by-id 28 u:0 0x654324 0
+chip-tool doorlock read-by-id 28 0x654324 0
+chip-tool doorlock write-by-id 28 u:255 0x654324 0
+chip-tool doorlock read-by-id 28 0x654324 0
+chip-tool doorlock write-by-id 32 true 0x654324 0
+chip-tool doorlock read-by-id 32 0x654324 0
+chip-tool doorlock write-by-id 32 false 0x654324 0
+chip-tool doorlock read-by-id 32 0x654324 0
+chip-tool doorlock write-by-id 33 ab12 0x654324 0
+chip-tool doorlock read-by-id 33 0x654324 0
+chip-tool doorlock write-by-id 33 test123 0x654324 0
+chip-tool doorlock read-by-id 33 0x654324 0
+chip-tool doorlock write-by-id 34 u:0 0x654324 0
+chip-tool doorlock read-by-id 34 0x654324 0
+chip-tool doorlock write-by-id 34 u:255 0x654324 0
+chip-tool doorlock read-by-id 34 0x654324 0
+chip-tool doorlock write-by-id 35 u:0 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 35 u:4294967295 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 36 u:0 0x654324 0
+chip-tool doorlock read-by-id 36 0x654324 0
+chip-tool doorlock write-by-id 36 u:255 0x654324 0
+chip-tool doorlock read-by-id 36 0x654324 0
+chip-tool doorlock write-by-id 37 0 0x654324 0
+chip-tool doorlock read-by-id 37 0x654324 0
+chip-tool doorlock write-by-id 37 4 0x654324 0
+chip-tool doorlock read-by-id 37 0x654324 0
+chip-tool doorlock write-by-id 38 0 0x654324 0
+chip-tool doorlock read-by-id 38 0x654324 0
+chip-tool doorlock write-by-id 38 65525 0x654324 0
+chip-tool doorlock read-by-id 38 0x654324 0
+chip-tool doorlock write-by-id 39 0 0x654324 0
+chip-tool doorlock read-by-id 39 0x654324 0
+chip-tool doorlock write-by-id 39 65535 0x654324 0
+chip-tool doorlock read-by-id 39 0x654324 0
+chip-tool doorlock write-by-id 40 false 0x654324 0
+chip-tool doorlock read-by-id 40 0x654324 0
+chip-tool doorlock write-by-id 40 true 0x654324 0
+chip-tool doorlock read-by-id 40 0x654324 0
+chip-tool doorlock write-by-id 41 false 0x654324 0
+chip-tool doorlock read-by-id 41 0x654324 0
+chip-tool doorlock write-by-id 41 true 0x654324 0
+chip-tool doorlock read-by-id 41 0x654324 0
+chip-tool doorlock write-by-id 42 false 0x654324 0
+chip-tool doorlock read-by-id 42 0x654324 0
+chip-tool doorlock write-by-id 42 true 0x654324 0
+chip-tool doorlock read-by-id 42 0x654324 0
+chip-tool doorlock write-by-id 43 false 0x654324 0
+chip-tool doorlock read-by-id 43 0x654324 0
+chip-tool doorlock write-by-id 43 true 0x654324 0
+chip-tool doorlock read-by-id 43 0x654324 0
+chip-tool doorlock write-by-id 44 0 0x654324 0
+chip-tool doorlock read-by-id 44 0x654324 0
+chip-tool doorlock write-by-id 44 15 0x654324 0
+chip-tool doorlock read-by-id 44 0x654324 0
+chip-tool doorlock write-by-id 48 u:0 0x654324 0
+chip-tool doorlock read-by-id 48 0x654324 0
+chip-tool doorlock write-by-id 48 u:255 0x654324 0
+chip-tool doorlock read-by-id 48 0x654324 0
+chip-tool doorlock write-by-id 49 u:0 0x654324 0
+chip-tool doorlock read-by-id 49 0x654324 0
+chip-tool doorlock write-by-id 49 u:255 0x654324 0
+chip-tool doorlock read-by-id 49 0x654324 0
+chip-tool doorlock write-by-id 50 false 0x654324 0
+chip-tool doorlock read-by-id 50 0x654324 0
+chip-tool doorlock write-by-id 50 true 0x654324 0
+chip-tool doorlock read-by-id 50 0x654324 0
+chip-tool doorlock write-by-id 51 false 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock write-by-id 53 u:0 0x654324 0
+chip-tool doorlock read-by-id 53 0x654324 0
+chip-tool doorlock write-by-id 53 u:2880 0x654324 0
+chip-tool doorlock read-by-id 53 0x654324 0
+chip-tool doorlock write-by-id 64 0 0x654324 0
+chip-tool doorlock read-by-id 64 0x654324 0
+chip-tool doorlock write-by-id 64 65535 0x654324 0
+chip-tool doorlock read-by-id 64 0x654324 0
+chip-tool doorlock write-by-id 65 0 0x654324 0
+chip-tool doorlock read-by-id 65 0x654324 0
+chip-tool doorlock write-by-id 65 65535 0x654324 0
+chip-tool doorlock read-by-id 65 0x654324 0
+chip-tool doorlock write-by-id 66 0 0x654324 0
+chip-tool doorlock read-by-id 66 0x654324 0
+chip-tool doorlock write-by-id 66 65535 0x654324 0
+chip-tool doorlock read-by-id 66 0x654324 0
+chip-tool doorlock write-by-id 67 0 0x654324 0
+chip-tool doorlock read-by-id 67 0x654324 0
+chip-tool doorlock write-by-id 67 65535 0x654324 0
+chip-tool doorlock read-by-id 67 0x654324 0
+chip-tool doorlock write-by-id 68 0 0x654324 0
+chip-tool doorlock read-by-id 68 0x654324 0
+chip-tool doorlock write-by-id 68 65535 0x654324 0
+chip-tool doorlock read-by-id 68 0x654324 0
+chip-tool doorlock write-by-id 69 0 0x654324 0
+chip-tool doorlock read-by-id 69 0x654324 0
+chip-tool doorlock write-by-id 69 65535 0x654324 0
+chip-tool doorlock read-by-id 69 0x654324 0
+chip-tool doorlock write-by-id 70 0 0x654324 0
+chip-tool doorlock read-by-id 70 0x654324 0
+chip-tool doorlock write-by-id 70 65535 0x654324 0
+chip-tool doorlock read-by-id 70 0x654324 0
+chip-tool doorlock write-by-id 71 0 0x654324 0
+chip-tool doorlock read-by-id 71 0x654324 0
+chip-tool doorlock write-by-id 71 65535 0x654324 0
+chip-tool doorlock read-by-id 71 0x654324 0
+chip-tool doorlock command-by-id 5 '{"0":"u:0", "0":"u:0", "0":"u:0","3":"hex:00"}' 0x654324 0
+chip-tool doorlock write-by-id 51 false 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 0 '{}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 0 '{"0":"hex:00"}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 0 '{"0":"hex:fffe"}' 0x654324 0
+chip-tool doorlock write-by-id 51 false 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 1 '{}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 1 '{"0":"hex:fffe"}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 1 '{"0":"hex:00"}' 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:0","1":"hex:00"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:0","1":"hex:fffe"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:65535","1":"hex:00"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:65535","1":"hex:fffe"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock command-by-id 6 '{"0":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 8 '{}' 0x654324 0
+chip-tool doorlock command-by-id 9 '{"0":"u:0"}' 0x654324 0
+chip-tool doorlock write-by-id 51 false 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 0 '{}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 0 '{"0":"hex:00"}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 0 '{"0":"hex:fffe"}' 0x654324 0
+chip-tool doorlock write-by-id 51 false 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 1 '{}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 1 '{"0":"hex:fffe"}' 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 1 '{"0":"hex:00"}' 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:0","1":"hex:00"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:0","1":"hex:fffe"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:65535","1":"hex:00"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock write-by-id 51 true 0x654324 0
+chip-tool doorlock read-by-id 51 0x654324 0
+chip-tool doorlock command-by-id 3 '{"0":"u:65535","1":"hex:fffe"}' 0x654324 0
+chip-tool doorlock read-by-id 35 0x654324 0
+chip-tool doorlock command-by-id 11 '{"0":"u:0","1":"u:0","2":"0x01","3":"u:0","4":"u:0","5":"u:0","6":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 11 '{"0":"u:0","1":"u:0","2":"0x01","3":"u:0","4":"u:0","5":"u:0","6":"u:59"}' 0x654324 0
+chip-tool doorlock command-by-id 11 '{"0":"u:0","1":"u:0","2":"0x01","3":"u:0","4":"u:59","5":"u:0","6":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 11 '{"0":"u:6","1":"u:65535","2":"0x7F","3":"u:23","4":"u:59","5":"u:23","6":"u:59"}' 0x654324 0
+chip-tool doorlock command-by-id 12 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 12 '{"0":"u:0","1":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 12 '{"0":"u:6","1":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 12 '{"0":"u:6","1":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 13 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 13 '{"0":"u:0","1":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 13 '{"0":"u:255","1":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 13 '{"0":"u:255","1":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:0","2":"u:0","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:0","2":"u:0","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:0","2":"u:4294967295","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:0","2":"u:4294967295","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:65535","2":"u:0","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:65535","2":"u:0","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:65535","2":"u:4294967295","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:0","1":"u:65535","2":"u:4294967295","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:0","2":"u:0","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:0","2":"u:0","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:0","2":"u:4294967295","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:0","2":"u:4294967295","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:65535","2":"u:0","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:65535","2":"u:0","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:65535","2":"u:4294967295","3":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 14 '{"0":"u:255","1":"u:65535","2":"u:4294967295","3":"u:4294967295"}' 0x654324 0
+chip-tool doorlock command-by-id 16 '{"0":"u:0","1":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 16 '{"0":"u:0","1":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 16 '{"0":"u:255","1":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 16 '{"0":"u:255","1":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 17 '{"0":"u:0","1":"u:0","2":"u:0","3":"0x00"}' 0x654324 0
+chip-tool doorlock command-by-id 17 '{"0":"u:0","1":"u:0","2":"u:4294967295","3":"0x00"}' 0x654324 0
+chip-tool doorlock command-by-id 17 '{"0":"u:255","1":"u:4294967295","2":"u:0","3":"0x03"}' 0x654324 0
+chip-tool doorlock command-by-id 18 '{"0":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 18 '{"0":"u:255"}' 0x654324 0
+chip-tool doorlock command-by-id 19 '{"0":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 19 '{"0":"u:255"}' 0x654324 0
+chip-tool doorlock command-by-id 20 '{"0":"u:0","1":"0x00"}' 0x654324 0
+chip-tool doorlock command-by-id 20 '{"0":"u:0","1":"0x01"}' 0x654324 0
+chip-tool doorlock command-by-id 20 '{"0":"u:65535","1":"0x00"}' 0x654324 0
+chip-tool doorlock command-by-id 20 '{"0":"u:65535","1":"0x09"}' 0x654324 0
+chip-tool doorlock command-by-id 21 '{"0":"u:1"}' 0x654324 0
+chip-tool doorlock command-by-id 21 '{"0":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 26 '{"0":"0x00","1":"u:0","2":"null","3":"null","4":"null","5":"null","6":"null"}' 0x654324 0
+chip-tool doorlock command-by-id 26 '{"0":"0x00","1":"u:0","2":"JohnDoe","3":"null","4":"null","5":"null","6":"null"}' 0x654324 0
+chip-tool doorlock command-by-id 26 '{"0":"0x00","1":"u:65535","2":"null","3":"u:123456","4":"0x01","5":"0x02","6":"0x03"}' 0x654324 0
+chip-tool doorlock command-by-id 27 '{"0":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 27 '{"0":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 29 '{"0":"u:0"}' 0x654324 0
+chip-tool doorlock command-by-id 29 '{"0":"u:65535"}' 0x654324 0
+chip-tool doorlock command-by-id 36 '{"0":{"0":0,"1":"u:0"}}' 0x654324 0
+chip-tool doorlock command-by-id 36 '{"0":{"0":0,"1":"u:65535"}}' 0x654324 0
+chip-tool doorlock command-by-id 36 '{"0":{"0":5,"1":"u:0"}}' 0x654324 0
+chip-tool doorlock command-by-id 36 '{"0":{"0":5,"1":"u:65535"}}' 0x654324 0
+chip-tool doorlock command-by-id 38 '{"0":{"0":0,"1":"u:0"}}' 0x654324 0
+chip-tool doorlock command-by-id 38 '{"0":{"0":0,"1":"u:65535"}}' 0x654324 0
+chip-tool doorlock command-by-id 38 '{"0":{"0":5,"1":"u:0"}}' 0x654324 0
+chip-tool doorlock command-by-id 38 '{"0":{"0":5,"1":"u:65535"}}' 0x654324 0

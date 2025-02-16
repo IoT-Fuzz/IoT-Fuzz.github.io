@@ -1,0 +1,29 @@
+==========FSM========
+chip-tool modeselect write-by-id 0x0000 ab12 0x654324 0
+chip-tool modeselect read-by-id 0x0000 0x654324 0
+chip-tool modeselect write-by-id 0x0000 test123 0x654324 0
+chip-tool modeselect read-by-id 0x0000 0x654324 0
+chip-tool modeselect write-by-id 0x0001 null 0x654324 0
+chip-tool modeselect read-by-id 0x0001 0x654324 0
+chip-tool modeselect write-by-id 0x0002 "[{"0":{"0":"ab12","1":"u:0","2":[{"0":"null","1":"null"}]}}]" 0x654324 0
+chip-tool modeselect read-by-id 0x0002 0x654324 0
+chip-tool modeselect write-by-id 0x0002 "[{"0":{"0":"ab12","1":"u:255","2":[{"0":"null","1":"null"}]}}]" 0x654324 0
+chip-tool modeselect read-by-id 0x0002 0x654324 0
+chip-tool modeselect write-by-id 0x0002 "[{"0":{"0":"test123","1":"u:0","2":[{"0":"null","1":"null"}]}}]" 0x654324 0
+chip-tool modeselect read-by-id 0x0002 0x654324 0
+chip-tool modeselect write-by-id 0x0002 "[{"0":{"0":"test123","1":"u:255","2":[{"0":"null","1":"null"}]}}]" 0x654324 0
+chip-tool modeselect read-by-id 0x0002 0x654324 0
+chip-tool modeselect write-by-id 0x0003 u:0 0x654324 0
+chip-tool modeselect read-by-id 0x0003 0x654324 0
+chip-tool modeselect write-by-id 0x0003 u:255 0x654324 0
+chip-tool modeselect read-by-id 0x0003 0x654324 0
+chip-tool modeselect write-by-id 0x0004 u:0 0x654324 0
+chip-tool modeselect read-by-id 0x0004 0x654324 0
+chip-tool modeselect write-by-id 0x0004 u:255 0x654324 0
+chip-tool modeselect read-by-id 0x0004 0x654324 0
+chip-tool modeselect write-by-id 0x0005 u:0 0x654324 0
+chip-tool modeselect read-by-id 0x0005 0x654324 0
+chip-tool modeselect write-by-id 0x0005 u:255 0x654324 0
+chip-tool modeselect read-by-id 0x0005 0x654324 0
+chip-tool modeselect command-by-id 0x00 '{"0":"u:0"}' 0x654324 0
+chip-tool modeselect command-by-id 0x00 '{"0":"u:255"}' 0x654324 0

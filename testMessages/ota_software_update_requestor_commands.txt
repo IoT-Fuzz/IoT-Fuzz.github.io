@@ -1,0 +1,17 @@
+==========FSM========
+chip-tool otasoftwareupdaterequestor write-by-id 0x0000 "[{"0":{"1":"null","2":"u:0"}}]" 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0000 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0000 "[{"0":{"1":"null","2":"u:65535"}}]" 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0000 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0001 false 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0001 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0001 true 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0001 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0002 0 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0002 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0002 8 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0002 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0003 u:0 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0003 0x654324 0
+chip-tool otasoftwareupdaterequestor write-by-id 0x0003 u:255 0x654324 0
+chip-tool otasoftwareupdaterequestor read-by-id 0x0003 0x654324 0

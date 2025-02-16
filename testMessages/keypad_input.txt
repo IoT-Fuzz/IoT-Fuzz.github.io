@@ -1,0 +1,3 @@
+==========FSM========
+chip-tool keypadinput command-by-id 0 '{"0":"0x00"}' 0x654324 0   
+chip-tool keypadinput command-by-id 0 '{"0":"0x46"}' 0x654324 0  

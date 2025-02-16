@@ -1,0 +1,2 @@
+==========FSM========
+chip-tool lowpower command-by-id 0x00 '{}' 0x654324 0

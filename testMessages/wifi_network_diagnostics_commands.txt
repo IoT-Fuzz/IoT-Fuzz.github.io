@@ -1,0 +1,54 @@
+==========FSM========
+chip-tool wifinetworkdiagnostics write-by-id 0x00 hex:00 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x00 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x00 hex:fffe 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x00 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x01 0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x01 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x01 5 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x01 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x02 0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x02 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x02 5 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x02 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x03 u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x03 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x03 u:65535 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x03 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x04 s:-128 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x04 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x04 s:127 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x04 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x05 u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x05 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x05 u:4294967295 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x05 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x06 u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x06 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x06 u:4294967295 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x06 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x07 u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x07 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x07 u:4294967295 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x07 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x08 u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x08 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x08 u:4294967295 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x08 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x09 u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x09 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x09 u:4294967295 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x09 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x0A u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x0A 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x0A u:4294967295 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x0A 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x0B u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x0B 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x0B u:18446744073709551615 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x0B 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x0C u:0 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x0C 0x654324 0
+chip-tool wifinetworkdiagnostics write-by-id 0x0C u:18446744073709551615 0x654324 0
+chip-tool wifinetworkdiagnostics read-by-id 0x0C 0x654324 0
+chip-tool wifinetworkdiagnostics command-by-id 0x00 '{}' 0x654324 0

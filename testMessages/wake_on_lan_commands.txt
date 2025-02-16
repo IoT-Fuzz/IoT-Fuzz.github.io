@@ -1,0 +1,5 @@
+==========FSM========
+chip-tool wakeonlan write-by-id 0x0000 ab12 0x654324 0
+chip-tool wakeonlan read-by-id 0x0000 0x654324 0
+chip-tool wakeonlan write-by-id 0x0000 test123 0x654324 0
+chip-tool wakeonlan read-by-id 0x0000 0x654324 0

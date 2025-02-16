@@ -1,0 +1,9 @@
+==========FSM========
+chip-tool binding write-by-id 0x0000 "[{"0":{"1":"null","2":"null","3":"u:0","4":"u:0"}}]" 0x654324 0
+chip-tool binding read-by-id 0x0000 0x654324 0
+chip-tool binding write-by-id 0x0000 "[{"0":{"1":"null","2":"null","3":"u:0","4":"u:65535"}}]" 0x654324 0
+chip-tool binding read-by-id 0x0000 0x654324 0
+chip-tool binding write-by-id 0x0000 "[{"0":{"1":"null","2":"null","3":"u:65535","4":"u:0"}}]" 0x654324 0
+chip-tool binding read-by-id 0x0000 0x654324 0
+chip-tool binding write-by-id 0x0000 "[{"0":{"1":"null","2":"null","3":"u:65535","4":"u:65535"}}]" 0x654324 0
+chip-tool binding read-by-id 0x0000 0x654324 0
